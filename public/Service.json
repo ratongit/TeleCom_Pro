@@ -1,0 +1,504 @@
+[
+  {
+    "id": "22",
+    "imgUrl": "https://assets.rbl.ms/25591710/origin.jpg",
+    "category": "Software Development",
+    "title": "Enterprise Software",
+    "description": "Enhance your business operations with our Enterprise Software solutions. We provide custom software tailored to meet your specific needs, ensuring efficiency and scalability.",
+    "technologies": ["Java", "Spring Boot", "Microservices", "MySQL"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "28",
+    "imgUrl": "https://timesit.org/wp-content/uploads/2022/07/digital-marketing.jpg",
+    "category": "Digital Marketing",
+    "title": "Social Media Marketing",
+    "description": "Boost your brand's online presence with our Social Media Marketing services. We create engaging content, run targeted ad campaigns, and analyze data to drive results.",
+    "strategies": ["Content Creation", "Ad Campaigns", "Audience Targeting"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "40",
+    "imgUrl": "https://mcit.gov.af/sites/default/files/inline-images/WhatisBigData.jpg",
+    "category": "Data Analytics",
+    "title": "Financial Data Analytics",
+    "description": "Harness the power of data analytics in finance and banking. We offer financial data analysis solutions to optimize risk assessment and decision-making.",
+    "analyticsMethods": ["Risk Analysis", "Fraud Detection", "Financial Forecasting"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "32",
+    "imgUrl": "https://rocketexpansion.com/wp-content/uploads/2021/04/digital-marketing-tips-v2-fb.jpg",
+    "category": "Graphic Design",
+    "title": "Social Media Graphics",
+    "description": "Enhance your social media presence with eye-catching graphics. We create stunning social media visuals to engage your audience and convey your message effectively.",
+    "designElements": ["Typography", "Illustrations", "Color Schemes"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "20",
+    "imgUrl": "https://5.imimg.com/data5/QR/UI/VN/SELLER-7931413/mobile-app-development-service.jpg",
+    "category": "App Development",
+    "title": "Travel Booking App",
+    "description": "Plan your next adventure with our Travel Booking App. Discover and book flights, hotels, and activities seamlessly, making your travel experience unforgettable.",
+    "technologies": ["React Native", "REST APIs", "Redux"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "14",
+    "imgUrl": "https://faraitltd.com/wp-content/uploads/2023/02/Screenshot_7.jpg",
+    "category": "Web Development",
+    "title": "Web Application",
+    "description": "Empower your business with a custom Web Application. Our development team utilizes the latest tools and technologies to create a powerful and user-friendly web app tailored to your needs.",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Vue.js"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "16",
+    "imgUrl": "https://superiorcodelabs.com/wp-content/uploads/2023/08/The-Power-and-Potential-of-App-Development-2023.png",
+    "category": "App Development",
+    "title": "E-commerce App",
+    "description": "Take your online store to the next level with our E-commerce App. We provide a user-friendly and secure mobile shopping experience for your customers, boosting your sales and revenue.",
+    "technologies": ["React Native", "Firebase", "Redux"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "12",
+    "imgUrl": "https://mediaandmore.co.uk/wp-content/uploads/2020/06/web-development-banner.jpg",
+    "category": "Web Development",
+    "title": "E-commerce Website",
+    "description": "Boost your online business with our E-commerce Website. Our platform, powered by the latest web development technologies, provides a seamless shopping experience for your customers. Take your sales to the next level!",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Node.js"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "02",
+    "imgUrl": "https://i.ibb.co/NL0jkD3/portfolio-02.jpg",
+    "category": "Ux",
+    "title": "Video Conference Website",
+    "description": "Elevate your virtual meetings with our Video Conference Website. Seamlessly connect with colleagues and clients using React, Tailwind CSS, Node.js, and MongoDB. Experience the future of collaboration today!",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "03",
+    "imgUrl": "https://i.ibb.co/zbRJWrD/portfolio-03.jpg",
+    "category": "Ux",
+    "title": "Multimedia Sharing Website",
+    "description": "Immerse yourself in a world of multimedia sharing. Our platform, driven by React, Tailwind CSS, Node.js, and MongoDB, enables you to share and discover multimedia content like never before.",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "33",
+    "imgUrl": "https://marketbusinessnews.com/wp-content/uploads/2019/08/Graphic-design-thumbnail-image-499499.jpg",
+    "category": "Graphic Design",
+    "title": "Logo Design",
+    "description": "Create a memorable brand identity with our Logo Design services. We craft unique and professional logos that represent your business's values and personality.",
+    "designElements": ["Logo Concepts", "Typography", "Iconography"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "04",
+    "imgUrl": "https://i.ibb.co/DCLd5pC/portfolio-04.jpg",
+    "category": "Web Design",
+    "title": "Landing Page",
+    "description": "Make a captivating first impression with our stunning landing page. Crafted using React, Tailwind CSS, Node.js, and MongoDB, our design will leave a lasting impact on your audience.",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "05",
+    "imgUrl": "https://i.ibb.co/S0hgQnb/portfolio-05.jpg",
+    "category": "Web Design",
+    "title": "Landing Page",
+    "description": "Unleash the potential of your brand with our captivating landing page. Built with React, Tailwind CSS, Node.js, and MongoDB, our design ensures your message shines through.",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "13",
+    "imgUrl": "https://f.hubspotusercontent10.net/hubfs/6448316/web-programming-languages.jpg",
+    "category": "Web Development",
+    "title": "Portfolio Website",
+    "description": "Showcase your work and skills with our Portfolio Website. Our design highlights your achievements and creativity, helping you stand out in the competitive web development industry.",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "15",
+    "imgUrl": "https://www.shiksha.com/online-courses/articles/wp-content/uploads/sites/11/2021/12/Programming-vs-Web-Development.jpg",
+    "category": "Web Development",
+    "title": "Blog Platform",
+    "description": "Share your thoughts and ideas with the world using our Blog Platform. We offer a feature-rich and customizable blogging solution to help you establish your online presence.",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "WordPress"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "09",
+    "imgUrl": "https://i.ibb.co/zbRJWrD/portfolio-03.jpg",
+    "category": "Ux",
+    "title": "Video Conference Website",
+    "description": "Redefine virtual collaboration with our Video Conference Website. Seamlessly connect and communicate using React, Tailwind CSS, Node.js, and MongoDB. Experience the future of teamwork today!",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+
+  {
+    "id": "17",
+    "imgUrl": "https://assets.entrepreneur.com/content/3x2/2000/20190612193425-GettyImages-1066987316-crop.jpeg?format=pjeg&auto=webp&crop=16:9",
+    "category": "App Development",
+    "title": "Fitness Tracking App",
+    "description": "Stay fit and healthy with our Fitness Tracking App. Monitor your workouts, set goals, and track your progress with ease. Achieve your fitness goals with our intuitive app.",
+    "technologies": ["Swift", "Core Data", "HealthKit"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "18",
+    "imgUrl": "https://www.ideamotive.co/hubfs/app%20development%20cost.png",
+    "category": "App Development",
+    "title": "Expense Tracker App",
+    "description": "Manage your finances effectively with our Expense Tracker App. Keep track of your income and expenses, set budgets, and gain control of your financial life.",
+    "technologies": ["Flutter", "SQLite", "Dart"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "19",
+    "imgUrl": "https://lilacinfotech.com/lilac_assets/images/blog/Top-Mobile-App-Development-Trends-that-will-Dominate-2022.jpg",
+    "category": "App Development",
+    "title": "Social Networking App",
+    "description": "Connect with friends and share moments with our Social Networking App. Explore the latest trends in social media and stay connected with loved ones.",
+    "technologies": ["React Native", "Firebase", "Redux"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "06",
+    "imgUrl": "https://i.ibb.co/PCZLMvX/portfolio-06.jpg",
+    "category": "Ux",
+    "title": "Online Therapy Website",
+    "description": "Prioritize your mental health with our Online Therapy Website. Our platform, developed with React, Tailwind CSS, Node.js, and MongoDB, provides accessible and confidential support when you need it most.",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "10",
+    "imgUrl": "https://i.ibb.co/S0hgQnb/portfolio-06.jpg",
+    "category": "Ux",
+    "title": "File Sharing Website",
+    "description": "Share files effortlessly with our File Sharing Website. Our platform, powered by React, Tailwind CSS, Node.js, and MongoDB, ensures secure and efficient file exchange. Simplify your workflow now!",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "21",
+    "imgUrl": "https://www.teahub.io/photos/full/7-73299_apps-mobile-smartphone-ss-1920-1000500-mobile-apps.jpg",
+    "category": "App Development",
+    "title": "Education App",
+    "description": "Empower learning with our Education App. Access a vast library of educational content, quizzes, and interactive lessons, making learning enjoyable and effective.",
+    "technologies": ["Flutter", "Firebase", "Dart"],
+    "siteUrl": "#"
+  },
+
+  {
+    "id": "23",
+    "imgUrl": "https://www.itprotoday.com/sites/itprotoday.com/files/software-development-button.jpg",
+    "category": "Software Development",
+    "title": "Cloud Application",
+    "description": "Leverage the power of the cloud with our Cloud Application development services. We create scalable and resilient cloud-based solutions to drive your business forward.",
+    "technologies": ["AWS", "Azure", "Google Cloud", "Docker"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "01",
+    "imgUrl": "https://i.ibb.co/bQ4hVb7/portfolio-01.jpg",
+    "category": "Web Design",
+    "title": "Finance Technology Website",
+    "description": "Explore the future of finance with our cutting-edge website. We offer innovative solutions powered by React, Tailwind CSS, Node.js, and MongoDB. Join us in revolutionizing the financial industry!",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "24",
+    "imgUrl": "https://www.ge.com/research/sites/default/files/styles/hero_banner/public/images/capabilities/2018-11/industry-3087393__480.jpg?itok=PThSdE_F",
+    "category": "Software Development",
+    "title": "IoT Software",
+    "description": "Connect devices and gather data with our IoT Software solutions. We enable smart, connected products and systems to transform your business processes.",
+    "technologies": ["IoT Platforms", "MQTT", "Edge Computing"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "25",
+    "imgUrl": "https://t3.ftcdn.net/jpg/02/66/14/60/360_F_266146015_pfZX5uwttD5sbREVyz9PCoBlcD0Y2upi.jpg",
+    "category": "Software Development",
+    "title": "Mobile App Development",
+    "description": "Create engaging and user-friendly mobile apps with our Mobile App Development services. We build apps for iOS and Android platforms to expand your reach.",
+    "technologies": ["Swift", "Kotlin", "React Native", "Flutter"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "26",
+    "imgUrl": "https://www.analyticssteps.com/backend/media/thumbnail/3968641/8917488_1625725118_AdobeStock_117524828.jpeg",
+    "category": "Software Development",
+    "title": "AI and Machine Learning",
+    "description": "Leverage the power of AI and Machine Learning in your software solutions. We develop intelligent applications to automate processes and gain insights.",
+    "technologies": ["Python", "TensorFlow", "PyTorch", "Scikit-Learn"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "11",
+    "imgUrl": "https://i.ibb.co/DCLd5pC/portfolio-04.jpg",
+    "category": "Web Design",
+    "title": "Landing Page",
+    "description": "Captivate your audience and make a lasting impression with our meticulously crafted Landing Page. Our design seamlessly combines user-friendly navigation with visually stunning elements, ensuring your message shines through. Powered by React, Tailwind CSS, Node.js, and MongoDB, this landing page is your key to a successful online presence.",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "27",
+    "imgUrl": "https://thumbs.dreamstime.com/b/software-development-business-process-automation-internet-technology-concept-virtual-screen-software-development-143587196.jpg",
+    "category": "Software Development",
+    "title": "Business Process Automation",
+    "description": "Streamline your business operations with our Business Process Automation software. We optimize workflows and reduce manual tasks for increased efficiency.",
+    "technologies": ["Workflow Automation", "Robotic Process Automation", "BPMN"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "29",
+    "imgUrl": "https://s40424.pcdn.co/in/wp-content/uploads/2023/03/How-to-Learn-Digital-Marketing.jpg.optimal.jpg",
+    "category": "Digital Marketing",
+    "title": "Search Engine Optimization (SEO)",
+    "description": "Improve your website's search engine ranking with our SEO services. We optimize your content, keywords, and website structure for better visibility.",
+    "strategies": ["Keyword Research", "On-Page SEO", "Link Building"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "30",
+    "imgUrl": "https://www.chindwinyomanews.com/wp-content/uploads/2022/09/Digital-Marketing-Agency-in-India-1.jpg",
+    "category": "Digital Marketing",
+    "title": "Email Marketing",
+    "description": "Drive customer engagement and conversions with our Email Marketing campaigns. We create personalized email content and automation for better results.",
+    "strategies": ["Email Campaigns", "Segmentation", "A/B Testing"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "31",
+    "imgUrl": "https://media.licdn.com/dms/image/D4D12AQEIyHYYT86U1g/article-cover_image-shrink_720_1280/0/1662817728493?e=2147483647&v=beta&t=Kto85Pwtdyn6YzS4tuUh4_jb6TRUWk_V9yN624vJbc8",
+    "category": "Digital Marketing",
+    "title": "Content Marketing",
+    "description": "Create valuable and engaging content with our Content Marketing strategies. We help you build trust, authority, and brand loyalty with your audience.",
+    "strategies": ["Content Creation", "Blogging", "Infographics"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "34",
+    "imgUrl": "https://www.pixelo.net/wp-content/uploads/2018/10/1934823-e1540532501723.jpg",
+    "category": "Graphic Design",
+    "title": "Print Design",
+    "description": "Make a statement with our Print Design solutions. From brochures to posters, we create visually appealing print materials that leave a lasting impression.",
+    "designElements": ["Layouts", "Typography", "Imagery"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "35",
+    "imgUrl": "https://digitaltribe.ae/wp-content/uploads/2021/05/Graphic-designing.jpg",
+    "category": "Graphic Design",
+    "title": "Web Design",
+    "description": "Transform your website with our Web Design expertise. We design user-friendly and aesthetically pleasing websites that resonate with your target audience.",
+    "designElements": ["UI/UX Design", "Responsive Layouts", "Visual Hierarchy"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "36",
+    "imgUrl": "https://mcit.gov.af/sites/default/files/inline-images/WhatisBigData.jpg",
+    "category": "Data Analytics",
+    "title": "Big Data Analysis",
+    "description": "Unlock insights from massive datasets with our Big Data Analysis services. We employ advanced analytics techniques to extract valuable information for your business.",
+    "analyticsMethods": ["Machine Learning", "Data Mining", "Predictive Analytics"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "37",
+    "imgUrl": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_Data_Analysis.jpg",
+    "category": "Data Analytics",
+    "title": "Data Analysis and Visualization",
+    "description": "Gain actionable insights through data analysis and visualization. We turn raw data into meaningful charts, graphs, and reports to support informed decision-making.",
+    "analyticsMethods": ["Statistical Analysis", "Data Visualization", "Dashboard Creation"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "39",
+    "imgUrl": "https://images.yourstory.com/cs/2/96eabe90392211eb93f18319e8c07a74/DATAANALYTICS-1686234812978.png",
+    "category": "Data Analytics",
+    "title": "Business Intelligence",
+    "description": "Empower your business with Business Intelligence solutions. We provide data-driven insights, reporting, and dashboards to enhance decision-making processes.",
+    "analyticsMethods": ["BI Reporting", "Data Dashboards", "Ad Hoc Analysis"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "41",
+    "imgUrl": "https://www.financialexecutives.org/FEI/media/FEI/GettyImages-1165055244.jpg?ext=.jpg",
+    "category": "Data Analytics",
+    "title": "Predictive Analytics",
+    "description": "Anticipate future trends and outcomes with Predictive Analytics. We use historical data and modeling techniques to make data-driven predictions for your business.",
+    "analyticsMethods": ["Regression Analysis", "Time Series Forecasting", "Machine Learning Models"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "38",
+    "imgUrl": "https://png.pngtree.com/background/20230617/original/pngtree-web-banner-3d-rendered-ui-for-seo-data-analytics-and-future-picture-image_3704909.jpg",
+    "category": "Data Analytics",
+    "title": "SEO Analytics",
+    "description": "Optimize your online presence with our SEO Analytics solutions. We analyze website data, keywords, and user behavior to improve your search engine rankings.",
+    "analyticsMethods": ["Keyword Analysis", "Website Audits", "Competitor Analysis"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "42",
+    "imgUrl": "https://www.simplilearn.com/ice9/free_resources_article_thumb/database_management.jpg",
+    "category": "Database Management",
+    "title": "Database Administration",
+    "description": "Manage and maintain your databases with our Database Administration services. We ensure the smooth operation, security, and optimization of your data infrastructure.",
+    "managementPractices": ["Data Security", "Performance Tuning", "Backup and Recovery"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "08",
+    "imgUrl": "https://i.ibb.co/NL0jkD3/portfolio-02.jpg",
+    "category": "Web Design",
+    "title": "Finance Technology Website",
+    "description": "Dive into the future of finance with our dynamic website. Our technology stack, including React, Tailwind CSS, Node.js, and MongoDB, powers innovative financial solutions. Join us in shaping the financial landscape.",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "43",
+    "imgUrl": "https://scientips.com/wp-content/uploads/2021/08/Top-4-free-cross-platform-database-systems-in-2020.jpg",
+    "category": "Database Management",
+    "title": "Cross-Platform Database Systems",
+    "description": "Explore cross-platform database systems with us. We help you choose and implement the right database solution that fits your business needs.",
+    "managementPractices": ["Database Selection", "Migration", "Integration"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "44",
+    "imgUrl": "https://www.scnsoft.com/blog-pictures/information-security/7-best-practices-for-database-security.png",
+    "category": "Database Management",
+    "title": "Database Security",
+    "description": "Protect your valuable data with our Database Security practices. We implement industry best practices to safeguard your databases from threats and breaches.",
+    "managementPractices": ["Access Control", "Encryption", "Auditing"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "45",
+    "imgUrl": "https://5.imimg.com/data5/SS/PV/SG/SELLER-55670473/self-employed-database-500x500.jpg",
+    "category": "Database Management",
+    "title": "Self-Employed Database",
+    "description": "Organize and manage your self-employed workforce with our Self-Employed Database solutions. We help you streamline data and processes for better efficiency.",
+    "managementPractices": ["Data Organization", "User Access", "Reporting"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "46",
+    "imgUrl": "https://www.analyticssteps.com/backend/media/thumbnail/8691292/1755036_1643626862_Introduction%20to%20Database%20Management%20SystemArtboard%201.jpg",
+    "category": "Database Management",
+    "title": "Introduction to Database Management",
+    "description": "Learn the fundamentals of Database Management with us. We offer training and educational resources to help you understand the core principles.",
+    "managementPractices": ["Data Modeling", "Query Optimization", "Normalization"],
+    "siteUrl": "#"
+  },
+  {
+    "id": "07",
+    "imgUrl": "https://i.ibb.co/bQ4hVb7/portfolio-01.jpg",
+    "category": "Web Design",
+    "title": "Appointment Booking Website",
+    "description": "Simplify your life with our Appointment Booking Website. Effortlessly schedule appointments and manage your calendar using React, Tailwind CSS, Node.js, and MongoDB. Stay organized, stay stress-free.",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB"
+    ],
+    "siteUrl": "#"
+  },
+  {
+    "id": "47",
+    "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD_Us5Z_evlEZfdP_j9-ybeGNwgd4r29_zmQ_3EW2Gj46iH8xCS6TK4RIi6Bg5dF9JnXM&usqp=CAU",
+    "category": "Database Management",
+    "title": "Database Management Tools",
+    "description": "Explore the latest database management tools and software. We provide recommendations and guidance on selecting the right tools for your needs.",
+    "managementPractices": ["Tool Evaluation", "Deployment", "Training"],
+    "siteUrl": "#"
+  }
+]
+
+

@@ -1,0 +1,27 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        opacity: .8;
+      }
+      25% {
+        transform: rotate(90deg);
+        opacity: .6;
+
+      }
+      50% {
+        transform: rotate(180deg);
+        opacity:.8 ;
+      }
+      75% {
+        transform: rotate(270deg);
+        opacity: .9;
+      }
+      100% {
+        transform: rotate(360deg);
+        opacity: .8;
+      }
+  }
+
+  .rotate-360 {
+    animation: rotate 25s linear infinite; /* Adjust the duration (5s) as needed */
+  }

@@ -1,0 +1,43 @@
+.max{
+  max-width: 1200px;  
+}
+
+.dashboard-content {
+  width: 100%;
+  min-height: 100vh;
+  color: rgb(104, 132, 157);
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: hsla(219, 34%, 18%, 1)
+}
+
+.homePageCard {
+  width: 90%;
+  background: rgb(1, 32, 55);
+  border: 1px solid rgb(59, 59, 105);
+  height: 180px;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 15px 15px;
+  overflow: hidden;
+
+}
+
+.align {
+  align-items: center;
+}
+
+.theme2 {
+  background: hsla(219, 34%, 18%, 1)
+}
+
+.theme1 {
+  font-style: 25px;
+  font-family:  Times, serif;
+  color: rgb(224, 233, 241);
+  background: rgba(64, 89, 134, 0.993);
+  letter-spacing:2px;
+}
+
+
+

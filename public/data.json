@@ -1,0 +1,891 @@
+[
+    {
+        "task_id": 7,
+        "task_name": "Implement new payment gateway",
+        "category": "Software Development",
+        "description": "Design and build a web-based inventory management system for tracking products, managing stock levels, and generating sales reports. The system should be user-friendly and scalable to accommodate future business growth.",
+        "deadline": "2023-09-12",
+        "priority": "High",
+        "status": "done",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Mark Wilson",
+            "email": "mark.wilson@example.com",
+            "country": "Australia",
+            "image_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/EC93/production/_126336506_jasongrant2.jpg"
+        },
+        "task_performer": {
+            "name": "David Brown",
+            "email": "dan@ample.com",
+            "country": "Australia",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK1Ltv3fyjG8awIp76zMBTVHToZ363wkzppA&usqp=CAU",
+            "role": "Software Developer"
+        },
+        "budget": 1200.00
+    },
+    {
+        "task_id": 10,
+        "task_name": "Data analysis for marketing campaign",
+        "category": "Data Analytics",
+        "description": "Perform data analysis on a large dataset of customer behavior to identify trends and insights that can inform marketing strategies. Use statistical tools and visualization techniques to present findings and make data-driven recommendations for improving customer engagement and retention.",
+        "deadline": "2023-09-17",
+        "priority": "Medium",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Liam Davis",
+            "email": "liam.davis@example.com",
+            "country": "UK",
+            "image_url": "https://www.mgtgyangurueduhub.com/images/Testimonial/16-PANDYA%20SATYAM%20MBBS.jpeg"
+        },
+        "task_performer": {
+            "name": "Ella White",
+            "email": "ella.white@example.com",
+            "country": "USA",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNaq_-xwt9Ho6QbqiZbID7ut98GriaRxBWDg&usqp=CAU",
+            "role": "Data Analyst"
+        },
+        "budget": 450.00
+    },
+    {
+        "task_id": 1,
+        "task_name": "Design the homepage for the website",
+        "description": "Build a responsive website for a personal blog that showcases articles, images, and user comments.",
+        "category": "Website Development",
+        "status": "to do",
+        "deadline": "2023-09-15",
+        "priority": "High",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Rajesh Roy",
+            "email": "rajesh@example.com",
+            "country": "USA",
+            "image_url": "https://i.ibb.co/PgF3cTq/profile4.jpg"
+        },
+        "task_performer": {
+            "name": "Chandro Mohanto",
+            "email": "alice.johnson@example.com",
+            "country": "India",
+            "image_url": "https://marketbusinessnews.com/wp-content/uploads/2023/02/Top-10-Custom-Software-Development-Companies-in-USA-2023-Revised-List.png",
+            "role": "Designer"
+        },
+        "budget": 500.00
+    },
+
+    {
+        "task_id": 2,
+        "task_name": "Create a social media marketing plan",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-20",
+        "status": "to do",
+        "priority": "Medium",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Emily Johnson",
+            "email": "emily.johnson@example.com",
+            "country": "UK",
+            "image_url": "https://imilap.com/profileimages/profile_IMG_20201205_162337.jpg"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 300.00
+    },
+
+    
+    {
+        "task_id": 6,
+        "task_name": "SEO optimization for the website",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-14",
+        "priority": "High",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Alex Johnson",
+            "email": "alex.johnson@example.com",
+            "country": "UK",
+            "image_url": "https://www.mgtgyangurueduhub.com/images/Testimonial/16-PANDYA%20SATYAM%20MBBS.jpeg"
+        },
+        "task_performer": {
+            "name": "Emily Davis",
+            "email": "emily.davis@example.com",
+            "country": "USA",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNaq_-xwt9Ho6QbqiZbID7ut98GriaRxBWDg&usqp=CAU",
+            "role": "SEO Specialist"
+        },
+        "budget": 600.00
+    },
+
+    
+    {
+        "task_id": 8,
+        "task_name": "Email marketing campaign",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-23",
+        "priority": "Medium",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Emma Clark",
+            "email": "emmaclark@example.com",
+            "country": "USA",
+            "image_url": "https://media.npr.org/assets/img/2022/11/08/ap22312071681283-0d9c328f69a7c7f15320e8750d6ea447532dff66-s1100-c50.jpg"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 350.00
+    },
+    {
+        "task_id": 9,
+        "task_name": "iOS app development",
+        "category": "App Development",
+        "description": "Develop a mobile application for iOS and Android platforms.",
+        "deadline": "2023-09-30",
+        "priority": "High",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Sophia Miller",
+            "email": "sophia.miller@example.com",
+            "country": "Canada",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPBZB273v3S2Erim4eCgffAIMl7UwKYXXbQ&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 800.00
+    },
+    {
+        "task_id": 11,
+        "task_name": "Frontend development for e-commerce site",
+        "category": "Website Development",
+        "deadline": "2023-09-19",
+        "priority": "High",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Olivia Smith",
+            "email": "olivia.smith@example.com",
+            "country": "USA",
+            "image_url": "https://i.ibb.co/PgF3cTq/profile4.jpg"
+        },
+        "task_performer": {
+            "name": "William Johnson",
+            "email": "william.johnson@example.com",
+            "country": "Canada",
+            "image_url": "https://www.axa.co.uk/globalassets/new-website/business/who-we-cover/it-contractors/itcontractor_v2.jpg?width=1600&mode=crop&heightratio=0.5625&quality=80",
+            "role": "Frontend Developer"
+        },
+        "budget": 700.00
+    },
+    {
+        "task_id": 3,
+        "task_name": "Develop a mobile app prototype",
+        "category": "App Development",
+        "description": "Develop a mobile application for iOS and Android platforms.",
+        "deadline": "2023-09-10",
+        "status": "to do",
+        "priority": "High",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+       "task_giver": {
+            "name": "David Brown",
+            "email": "daown@ple.com",
+            "country": "Australia",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK1Ltv3fyjG8awIp76zMBTVHToZ363wkzppA&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Chris Anderson",
+            "email": "chris.anderson@example.com",
+            "country": "USA",
+            "image_url": "https://i.ibb.co/PgF3cTq/profile4.jpg",
+            "role": "Developer"
+        },
+        "budget": 1000.00
+    },
+
+    {
+        "task_id": 4,
+        "task_name": "Bug fixing and testing for software release",
+        "category": "Software Development",
+        "description": "Design and build a web-based inventory management system for tracking products, managing stock levels, and generating sales reports. The system should be user-friendly and scalable to accommodate future business growth.",
+        "deadline": "2023-09-25",
+        "priority": "Medium",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "status": "to do",
+        "task_giver": {
+            "name": "Alice Taylor",
+            "email": "alice.taylor@example.com",
+            "country": "Canada",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPBZB273v3S2Erim4eCgffAIMl7UwKYXXbQ&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 400.00
+    },
+
+    {
+        "task_id": 5,
+        "task_name": "Backend Development",
+        "description": "Set up a backend server to manage user authentication, article storage, and comments.",
+        "category": "Website Development",
+        "deadline": "2023-09-18",
+        "priority": "Medium",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Sarah Adams",
+            "email": "sarah.adams@example.com",
+            "country": "USA",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQERNfr5IasKcFjIn1mywxzoEM8nRhIIunGGA&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Michael Lee",
+            "email": "michael.lee@example.com",
+            "country": "Canada",
+            "image_url": "https://www.templeton-recruitment.com/hs-fs/hubfs/ezgif.com-gif-maker(1).png?width=1200&name=ezgif.com-gif-maker(1).png",
+            "role": "Content Writer"
+        },
+        "budget": 250.00
+    },
+    {
+        "task_id": 12,
+        "task_name": "Content marketing strategy",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-25",
+        "priority": "Medium",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Noah Wilson",
+            "email": "noah.wilson@example.com",
+            "country": "Australia",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQERNfr5IasKcFjIn1mywxzoEM8nRhIIunGGA&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 300.00
+    },
+    {
+        "task_id": 13,
+        "task_name": "Android app development",
+        "category": "App Development",
+        "description": "Develop a mobile application for iOS and Android platforms.",
+        "deadline": "2023-09-28",
+        "priority": "High",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Mia Brown",
+            "email": "mia.brown@example.com",
+            "country": "Canada",
+            "image_url": "https://media.npr.org/assets/img/2022/11/08/ap22312071681283-0d9c328f69a7c7f15320e8750d6ea447532dff66-s1100-c50.jpg"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 900.00
+    },
+    {
+        "task_id": 14,
+        "task_name": "Database optimization for the website",
+        "category": "Website Development",
+        "description" : "Database optimization is a crucial aspect of website performance. By fine-tuning the way data is stored, retrieved, and managed, you can significantly enhance your website's speed and responsiveness. This optimization process involves tasks such as indexing, query optimization, and data caching, all aimed at reducing database load times. The result? A smoother user experience and improved overall website functionality.",
+        "deadline": "2023-09-22",
+        "priority": "Medium",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Sophia Adams",
+            "email": "sophia.adams@example.com",
+            "country": "USA",
+            "image_url": "https://www.open.edu.au/-/media/blog/2022/10-october/software-developer-vs-engineer_edited.jpg?h=402&iar=0&w=715&rev=22dc593363e74d4285cb4042c8401af0&hash=A719998C2F009EC9F76F63BFCDFBD24A"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 400.00
+    },
+    {
+        "task_id": 15,
+        "task_name": "Social media content creation",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-16",
+        "priority": "High",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Daniel Johnson",
+            "email": "daniel.johnson@example.com",
+            "country": "UK",
+            "image_url": "https://www.mgtgyangurueduhub.com/images/Testimonial/16-PANDYA%20SATYAM%20MBBS.jpeg"
+        },
+        "task_performer": {
+            "name": "Sophia Lee",
+            "email": "sophia.lee@example.com",
+            "country": "USA",
+            "image_url": "https://media.licdn.com/dms/image/D4D12AQEwG6NwGT1G9A/article-cover_image-shrink_600_2000/0/1670973138645?e=2147483647&v=beta&t=x_mwfHo2xzP8iM4Xd9KSE4-1kb0D8u3qqFrmWapF5YE",
+            "role": "Content Creator"
+        },
+        "budget": 350.00
+    },
+    {
+        "task_id": 16,
+        "task_name": "Backend development for e-commerce site",
+        "category": "Website Development",
+        "description" : "A web developer plays a pivotal role in the digital world, responsible for designing, constructing, and maintaining websites and web applications. They use HTML, CSS, and JavaScript to create visually appealing and interactive user interfaces. Collaboration with designers, developers, and stakeholders is essential, and they conduct thorough testing to ensure seamless functionality. Web developers also focus on security measures and staying updated with the latest industry trends and technologies.",
+        "deadline": "2023-09-20",
+        "priority": "High",
+        "status": "done",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Ella Wilson",
+            "email": "ella.wilson@example.com",
+            "country": "Australia",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPBZB273v3S2Erim4eCgffAIMl7UwKYXXbQ&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Liam Anderson",
+            "email": "eron@example.com",
+            "country": "Canada",
+            "image_url": "https://example.com/liam_anderson.jpg",
+            "role": "Backend Developer"
+        },
+        "budget": 900.00
+    },
+    {
+        "task_id": 36,
+        "task_name": "Social media advertising campaign",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-20",
+        "priority": "High",
+        "status": "done",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "John Smith",
+            "email": "ava.smith@example.com",
+            "country": "Singapur",
+            "image_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/EC93/production/_126336506_jasongrant2.jpg"
+        },
+        "task_performer": {
+            "name": "Sumit Sha",
+            "email": "sumitsha@example.com",
+            "country": "India",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G18EiL5lZOsEzraUS77EHgFHaqS_NLbpgficsDQ88wnUR4RXYCVSY5HEoC8mNBXUCpA&usqp=CAU",
+            "role": "Backend Developer"
+        },
+        "budget": 1200.00
+    },
+    {
+        "task_id": 35,
+        "task_name": "Database optimization for the website",
+        "category": "Website Development",
+        "description" : "Database optimization is a crucial aspect of website performance. By fine-tuning the way data is stored, retrieved, and managed, you can significantly enhance your website's speed and responsiveness. This optimization process involves tasks such as indexing, query optimization, and data caching, all aimed at reducing database load times. The result? A smoother user experience and improved overall website functionality.",
+        "deadline": "2023-09-20",
+        "priority": "High",
+        "status": "done",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Christon Mendela",
+            "email": "christon@example.com",
+            "country": "Shout Korea",
+            "image_url": "https://i.ibb.co/PgF3cTq/profile4.jpg"
+        },
+        "task_performer": {
+            "name": "David Turner",
+            "email": "david@example.com",
+            "country": "Romania",
+            "image_url": "https://static.toiimg.com/photo/resizemode-75,overlay-toiplus,msid-86806936/86806936.jpg",
+            "role": "Backend Developer"
+        },
+        "budget": 1050.00
+    },
+    {
+        "task_id": 37,
+        "task_name": "Backend development for e-commerce site",
+        "category": "Website Development",
+        "description" : "A web developer plays a pivotal role in the digital world, responsible for designing, constructing, and maintaining websites and web applications. They use HTML, CSS, and JavaScript to create visually appealing and interactive user interfaces. Collaboration with designers, developers, and stakeholders is essential, and they conduct thorough testing to ensure seamless functionality. Web developers also focus on security measures and staying updated with the latest industry trends and technologies.",
+        "deadline": "2023-09-20",
+        "priority": "High",
+        "status": "done",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Ella Wilson",
+            "email": "ellilson@example.com",
+            "country": "Australia",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQERNfr5IasKcFjIn1mywxzoEM8nRhIIunGGA&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Liam Anderson",
+            "email": "liam.andson@example.com",
+            "country": "Canada",
+            "image_url": "https://www.templeton-recruitment.com/hs-fs/hubfs/ezgif.com-gif-maker(1).png?width=1200&name=ezgif.com-gif-maker(1).png",
+            "role": "Backend Developer"
+        },
+        "budget": 1350.00
+    },
+    {
+        "task_id": 17,
+        "task_name": "Email newsletter design",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-27",
+        "priority": "Medium",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Oliver Davis",
+            "email": "oliver.davis@example.com",
+            "country": "USA",
+            "image_url": "https://media.npr.org/assets/img/2022/11/08/ap22312071681283-0d9c328f69a7c7f15320e8750d6ea447532dff66-s1100-c50.jpg"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 200.00
+    },
+
+    {
+        "task_id": 18,
+        "task_name": "Mobile app UI/UX design",
+        "category": "App Development",
+        "description": "Develop a mobile application for iOS and Android platforms.",
+        "deadline": "2023-09-25",
+        "priority": "High",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Ava Smith",
+            "email": "ava.smith@example.com",
+            "country": "Canada",
+            "image_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/EC93/production/_126336506_jasongrant2.jpg"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 750.00
+    },
+    
+    {
+        "task_id": 19,
+        "task_name": "Data analysis for product launch",
+        "category": "Data Analytics",
+        "description": "Perform data analysis on a large dataset of customer behavior to identify trends and insights that can inform marketing strategies. Use statistical tools and visualization techniques to present findings and make data-driven recommendations for improving customer engagement and retention.",
+        "deadline": "2023-09-21",
+        "priority": "Medium",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Harper Brown",
+            "email": "harper.brown@example.com",
+            "country": "UK",
+            "image_url": "https://www.mgtgyangurueduhub.com/images/Testimonial/16-PANDYA%20SATYAM%20MBBS.jpeg"
+        },
+        "task_performer": {
+            "name": "Ethan Wilson",
+            "email": "ethan.wilson@example.com",
+            "country": "USA",
+            "image_url": "https://www.axa.co.uk/globalassets/new-website/business/who-we-cover/it-contractors/itcontractor_v2.jpg?width=1600&mode=crop&heightratio=0.5625&quality=80",
+            "role": "Data Analyst"
+        },
+        "budget": 500.00
+    },
+    {
+        "task_id": 20,
+        "task_name": "Security audit for the website",
+        "category": "Website Development",
+        "deadline": "2023-09-23",
+        "priority": "Medium",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Mia Johnson",
+            "email": "mia.johnson@example.com",
+            "country": "USA",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPBZB273v3S2Erim4eCgffAIMl7UwKYXXbQ&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 300.00
+    },
+    {
+        "task_id": 21,
+        "task_name": "Social media advertising campaign",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-30",
+        "priority": "High",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Lucas Wilson",
+            "email": "lucas.wilson@example.com",
+            "country": "Australia",
+            "image_url": "https://i.ibb.co/PgF3cTq/profile4.jpg"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 600.00
+    },
+    {
+        "task_id": 22,
+        "task_name": "iOS app testing and QA",
+        "category": "App Development",
+        "description": "Develop a mobile application for iOS and Android platforms.",
+        "deadline": "2023-09-28",
+        "priority": "High",
+        "status": "to do",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Isabella Smith",
+            "email": "isabella.smith@example.com",
+            "country": "Canada",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQERNfr5IasKcFjIn1mywxzoEM8nRhIIunGGA&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Unassigned",
+            "email": null,
+            "country": null,
+            "image_url": null,
+            "role": null
+        },
+        "budget": 700.00
+    },
+    {
+        "task_id": 23,
+        "task_name": "Content Marketing Strategy",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-18",
+        "priority": "Medium",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Sophie Turner",
+            "email": "sophie.turner@example.com",
+            "country": "USA",
+            "image_url": "https://media.npr.org/assets/img/2022/11/08/ap22312071681283-0d9c328f69a7c7f15320e8750d6ea447532dff66-s1100-c50.jpg"
+        },
+        "task_performer": {
+            "name": "Eleanor Clark",
+            "email": "eleanor.clark@example.com",
+            "country": "Canada",
+            "image_url": "https://media.licdn.com/dms/image/D4D12AQEwG6NwGT1G9A/article-cover_image-shrink_600_2000/0/1670973138645?e=2147483647&v=beta&t=x_mwfHo2xzP8iM4Xd9KSE4-1kb0D8u3qqFrmWapF5YE",
+            "role": "Content Strategist"
+        },
+        "budget": 400.00
+    },
+    {
+        "task_id": 24,
+        "task_name": "Frontend Development for Blog",
+        "category": "Website Development",
+        "deadline": "2023-09-19",
+        "priority": "High",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Oliver Harris",
+            "email": "oliver.harris@example.com",
+            "country": "UK",
+            "image_url": "https://www.mgtgyangurueduhub.com/images/Testimonial/16-PANDYA%20SATYAM%20MBBS.jpeg"
+        },
+        "task_performer": {
+            "name": "Sophia Johnson",
+            "email": "sophia.johnson@example.com",
+            "country": "USA",
+            "image_url": "https://www.open.edu.au/-/media/blog/2022/10-october/software-developer-vs-engineer_edited.jpg?h=402&iar=0&w=715&rev=22dc593363e74d4285cb4042c8401af0&hash=A719998C2F009EC9F76F63BFCDFBD24A",
+            "role": "Frontend Developer"
+        },
+        "budget": 600.00
+    },
+    {
+        "task_id": 25,
+        "task_name": "SEO Optimization",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-24",
+        "priority": "High",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Eva Miller",
+            "email": "eva.miller@example.com",
+            "country": "USA",
+            "image_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/EC93/production/_126336506_jasongrant2.jpg"
+        },
+        "task_performer": {
+            "name": "David Turner",
+            "email": "david.turner@example.com",
+            "country": "Canada",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G18EiL5lZOsEzraUS77EHgFHaqS_NLbpgficsDQ88wnUR4RXYCVSY5HEoC8mNBXUCpA&usqp=CAU",
+            "role": "SEO Specialist"
+        },
+        "budget": 550.00
+    },
+    {
+        "task_id": 26,
+        "task_name": "Content Creation for Blog",
+        "category": "Content Writing",
+        "deadline": "2023-09-26",
+        "priority": "Medium",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Aiden Smith",
+            "email": "aiden.smith@example.com",
+            "country": "Canada",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQERNfr5IasKcFjIn1mywxzoEM8nRhIIunGGA&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Lily Parker",
+            "email": "lily.parker@example.com",
+            "country": "USA",
+            "image_url": "https://static.toiimg.com/photo/resizemode-75,overlay-toiplus,msid-86806936/86806936.jpg",
+            "role": "Content Writer"
+        },
+        "budget": 300.00
+    },
+    {
+        "task_id": 27,
+        "task_name": "Database Migration",
+        "category": "Database Management",
+        "deadline": "2023-09-29",
+        "priority": "High",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Henry Wilson",
+            "email": "henry.wilson@example.com",
+            "country": "UK",
+            "image_url": "https://media.npr.org/assets/img/2022/11/08/ap22312071681283-0d9c328f69a7c7f15320e8750d6ea447532dff66-s1100-c50.jpg"
+        },
+        "task_performer": {
+            "name": "Olivia Davis",
+            "email": "olivia.davis@example.com",
+            "country": "Canada",
+            "image_url": "https://www.templeton-recruitment.com/hs-fs/hubfs/ezgif.com-gif-maker(1).png?width=1200&name=ezgif.com-gif-maker(1).png",
+            "role": "Database Administrator"
+        },
+        "budget": 700.00
+    },
+    {
+        "task_id": 28,
+        "task_name": "Mobile App Development",
+        "category": "App Development",
+        "description": "Develop a mobile application for iOS and Android platforms.",
+        "deadline": "2023-09-28",
+        "priority": "High",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Natalie Turner",
+            "email": "natalie.turner@example.com",
+            "country": "USA",
+            "image_url": "https://i.ibb.co/PgF3cTq/profile4.jpg"
+        },
+        "task_performer": {
+            "name": "Lucas Green",
+            "email": "lucas.green@example.com",
+            "country": "Canada",
+            "image_url": "https://www.axa.co.uk/globalassets/new-website/business/who-we-cover/it-contractors/itcontractor_v2.jpg?width=1600&mode=crop&heightratio=0.5625&quality=80",
+            "role": "App Developer"
+        },
+        "budget": 800.00
+    },
+    {
+        "task_id": 29,
+        "task_name": "Marketing Analytics",
+        "category": "Data Analytics",
+        "description": "Perform data analysis on a large dataset of customer behavior to identify trends and insights that can inform marketing strategies. Use statistical tools and visualization techniques to present findings and make data-driven recommendations for improving customer engagement and retention.",
+        "deadline": "2023-09-30",
+        "priority": "Medium",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Ella Turner",
+            "email": "ella.turner@example.com",
+            "country": "Australia",
+            "image_url": "https://media.npr.org/assets/img/2022/11/08/ap22312071681283-0d9c328f69a7c7f15320e8750d6ea447532dff66-s1100-c50.jpg"
+        },
+        "task_performer": {
+            "name": "Benjamin Clark",
+            "email": "benjamin.clark@example.com",
+            "country": "USA",
+            "image_url": "https://media.licdn.com/dms/image/D4D12AQEwG6NwGT1G9A/article-cover_image-shrink_600_2000/0/1670973138645?e=2147483647&v=beta&t=x_mwfHo2xzP8iM4Xd9KSE4-1kb0D8u3qqFrmWapF5YE",
+            "role": "Data Analyst"
+        },
+        "budget": 500.00
+    },
+    {
+        "task_id": 30,
+        "task_name": "UI/UX Design Enhancement",
+       "category": "Web Design ",
+        "deadline": "2023-09-27",
+        "priority": "Medium",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Liam Taylor",
+            "email": "liam.taylor@example.com",
+            "country": "Canada",
+            "image_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/EC93/production/_126336506_jasongrant2.jpg"
+        },
+        "task_performer": {
+            "name": "Sophia Brown",
+            "email": "sophia.brown@example.com",
+            "country": "USA",
+            "image_url": "https://www.open.edu.au/-/media/blog/2022/10-october/software-developer-vs-engineer_edited.jpg?h=402&iar=0&w=715&rev=22dc593363e74d4285cb4042c8401af0&hash=A719998C2F009EC9F76F63BFCDFBD24A",
+            "role": "UI/UX Designer"
+        },
+        "budget": 450.00
+    },
+    {
+        "task_id": 31,
+        "task_name": "Customer Support Training",
+        "category": "Customer Support",
+        "deadline": "2023-09-23",
+        "priority": "Medium",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Noah Smith",
+            "email": "noah.smith@example.com",
+            "country": "USA",
+            "image_url": "https://www.mgtgyangurueduhub.com/images/Testimonial/16-PANDYA%20SATYAM%20MBBS.jpeg"
+        },
+        "task_performer": {
+            "name": "Emma White",
+            "email": "emma.white@example.com",
+            "country": "Canada",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G18EiL5lZOsEzraUS77EHgFHaqS_NLbpgficsDQ88wnUR4RXYCVSY5HEoC8mNBXUCpA&usqp=CAU",
+            "role": "Trainer"
+        },
+        "budget": 250.00
+    },
+    {
+        "task_id": 32,
+        "task_name": "Content Marketing Campaign",
+        "category": "Digital Marketing",
+        "description": "Create and execute a comprehensive digital marketing strategy to increase brand visibility and engagement on social media platforms, optimize SEO, and manage online advertising campaigns.",
+        "deadline": "2023-09-25",
+        "priority": "High",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Mia Turner",
+            "email": "mia.turner@example.com",
+            "country": "USA",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQERNfr5IasKcFjIn1mywxzoEM8nRhIIunGGA&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Aiden Davis",
+            "email": "aiden.davis@example.com",
+            "country": "Canada",
+            "image_url": "https://static.toiimg.com/photo/resizemode-75,overlay-toiplus,msid-86806936/86806936.jpg",
+            "role": "Content Marketer"
+        },
+        "budget": 550.00
+    },
+    {
+        "task_id": 33,
+        "task_name": "Database Optimization",
+        "category": "Database Management",
+        "deadline": "2023-09-21",
+        "priority": "High",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Olivia Turner",
+            "email": "olivia.turner@example.com",
+            "country": "Australia",
+            "image_url": "https://media.npr.org/assets/img/2022/11/08/ap22312071681283-0d9c328f69a7c7f15320e8750d6ea447532dff66-s1100-c50.jpg"
+        },
+        "task_performer": {
+            "name": "Benjamin Smith",
+            "email": "benjamin.smith@example.com",
+            "country": "USA",
+            "image_url": "https://www.templeton-recruitment.com/hs-fs/hubfs/ezgif.com-gif-maker(1).png?width=1200&name=ezgif.com-gif-maker(1).png",
+            "role": "Database Administrator"
+        },
+        "budget": 700.00
+    },
+    {
+        "task_id": 34,
+        "task_name": "Mobile App Testing",
+        "category": "App Development",
+        "description": "Develop a mobile application for iOS and Android platforms.",
+        "deadline": "2023-09-22",
+        "priority": "High",
+        "status": "doing",
+        "img": "https://i.ibb.co/48hWb9z/web3.jpg",
+        "task_giver": {
+            "name": "Liam Turner",
+            "email": "liam.turner@example.com",
+            "country": "Canada",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPBZB273v3S2Erim4eCgffAIMl7UwKYXXbQ&usqp=CAU"
+        },
+        "task_performer": {
+            "name": "Emma Davis",
+            "email": "emma.davis@example.com",
+            "country": "USA",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNaq_-xwt9Ho6QbqiZbID7ut98GriaRxBWDg&usqp=CAU",
+            "role": "QA Tester"
+        },
+        "budget": 650.00
+    }
+]

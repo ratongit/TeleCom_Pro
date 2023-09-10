@@ -1,0 +1,29 @@
+/* theme.css */
+:root {
+  --primary-bg-light: #3498db;
+  --primary-text-light: #ffffff;
+  --primary-bg-dark: #2c3e50;
+  --primary-text-dark: #ffffff;
+}
+
+.light {
+  --primary-bg: var(--primary-bg-light);
+  --primary-text: var(--primary-text-light);
+}
+
+.dark {
+  --primary-bg: var(--primary-bg-dark);
+  --primary-text: var(--primary-text-dark);
+}
+
+.broder-left {
+  border-left: 0px;
+  border-top: 1px;
+}
+
+
+
+
+
+
+
