@@ -1,12 +1,38 @@
 
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import './SignUp.css'
-// import google from './../../assets/Octopus/google.png'
-// import github from './../../assets/Octopus/git.png'
-// import facebook from './../../assets/Octopus/Facebook.webp'
-
+import app from '../../Component/FireBase/Firebase.config';
+import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import { AuthContext } from '../../Component/ContextApi/AuthProniders';
+import Swal from 'sweetalert2'
 
 const Login = () => {
+    const {setUser} = useContext(AuthContext)
+
+
+    const auth= getAuth(app)
+
+    const onSubmit = (event) => {
+        event.preventDefault();
+        console.log(auth,email,password)
+          signInWithEmailAndPassword(auth,email,password)
+
+          
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Login has been successfully',
+            showConfirmButton: false,
+            timer: 1500
+          })
+    }
+    
+
+    const createUser=(email,password)=>{
+
+        return signInWithEmailAndPassword(auth,email,password)
+    }
+
     const [name, setName] = useState('');
     const [password, setpassword] = useState('');
     const [email, setEmail] = useState('');
@@ -54,7 +80,7 @@ const Login = () => {
 
 
 
-            <form className='bg-gray-600  pt-6  h-[360px] bg-transParent  rounded-sm shadow-sm shadow-slate-600 bg-opacity-10 relative' >
+            <form onSubmit={onSubmit}  className='bg-gray-600  pt-6  h-[360px] bg-transParent  rounded-sm shadow-sm shadow-slate-600 bg-opacity-10 relative' >
 
                 <div className='w-36 h-36 z-40 bg-blue-400 rounded-[50%] -top-16 -left-16 bg-opacity-50 absolute '></div>
                 <div className='w-40 h-40 z-40 bg-purple-400 rounded-[50%] -bottom-20 -right-20 bg-opacity-30 absolute '></div>
@@ -67,19 +93,6 @@ const Login = () => {
 
                     <div className="sign-up-card ">
 
-                        {/* <div className="input-container">
-                            <input
-                                value={name}
-                                onKeyUp={handleInput2}
-                                onChange={handleInput}
-                                className={` form-input ${inputAnimation && 'input-animation'}`}
-                                name='name'
-                                type="text"
-                                id="inputField1"
-                                required
-                            />
-                            <label className='input-text' htmlFor="inputField1"> Name</label>
-                        </div> */}
                         <div className="input-container ">
                             <input
                                 value={email}
@@ -110,16 +123,17 @@ const Login = () => {
                         <div className="input-container pt-1">
                             <input className=' btn hover:opacity-80 font-bold bg-opacity-70 btn-success ' type="submit" value='Sign In' />
                         </div>
-                        {/* <div className='flex gap-7 input-container justify-center ps-20 '>
-
-                            <img src={google} alt="" className='w-8 ' />
-                            <img src={facebook} alt="" className='w-8' />
-                            <img src={github} alt="" className='w-8 bg-white rounded-[50%] ' />
-
-
-                        </div> */}
                     </div>
+
                 </div>
+
+ <div className='mx-auto flex justify-center relative top-[230px]'>
+<a href="/signup">
+<h3 className='center uppercase text-[13px] '>already have an account ?
+<span className='text-blue-400 border-none hover:bg-transparent cursor-pointer hover:text-green-300 bg-transparent  font-bold underline btn '> Sing Up </span>
+</h3>
+</a>  </div>  
+
             </form>
         </div>
     );

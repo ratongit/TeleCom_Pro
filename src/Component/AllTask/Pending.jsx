@@ -5,7 +5,7 @@ import Task from './Task';
 const Pending  = () => {
     const {Pending }=useDatabase()
     return (
-        <div className="overflow-x-auto darktheme1 w-[92%]  mt-10 rounded-md  ">
+        <div className="overflow-x-auto darktheme1 w-[92%]  my-10 rounded-md  ">
             <h1 className='center my-3 md:my-5 '>
             Pending Projects ( <span className='text-yellow-200 text-[18px]'>To Do Task : {Pending.length}</span> )
            </h1>

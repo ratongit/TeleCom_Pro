@@ -1,0 +1,576 @@
+[
+    {
+        "role": "App Developer",
+        "description": "Creates mobile and desktop applications.",
+        "skills": ["Swift", "React Native", "Java", "Kotlin"],
+        "currentWorkingProjects": 3,
+        "completedProjects": 12,
+        "developer": {
+            "name": "Priya Sharma",
+            "country": "India"
+        },
+        "team": "Butterfly App Team",
+        "email": "sharma@gmail.com",
+        "img": "https://www.templeton-recruitment.com/hs-fs/hubfs/ezgif.com-gif-maker(1).png?width=1200&name=ezgif.com-gif-maker(1).png"
+    },
+    {
+        "role": "iOS App Developer",
+        "description": "Specializes in developing applications for Apple's iOS devices.",
+        "skills": ["Swift", "Objective-C", "UIKit", "Core Data"],
+        "currentWorkingProjects": 6,
+        "completedProjects": 18,
+        "developer": {
+            "name": "Rajesh Sharma",
+            "country": "India"
+        },
+        "email": "rajesh@gmail.com",
+        "team": "Butterfly App Team",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNaq_-xwt9Ho6QbqiZbID7ut98GriaRxBWDg&usqp=CAU"
+    },
+    {
+        "role": "Android App Developer",
+        "description": "Creates mobile applications for the Android platform.",
+        "skills": ["Java", "Kotlin", "Android Studio", "API Integration"],
+        "currentWorkingProjects": 4,
+        "completedProjects": 12,
+        "developer": {
+            "name": "Priya Patel",
+            "country": "India"
+        },
+        "team": "Butterfly App Team",
+        "email": "partel@gmail.com",
+        "img": "https://www.axa.co.uk/globalassets/new-website/business/who-we-cover/it-contractors/itcontractor_v2.jpg?width=1600&mode=crop&heightratio=0.5625&quality=80"
+    },
+    {
+        "role": "Cross-Platform App Developer",
+        "description": "Develops apps that run on multiple platforms using frameworks like React Native or Flutter.",
+        "skills": ["React Native", "Flutter", "Dart", "UI/UX Design"],
+        "currentWorkingProjects": 3,
+        "completedProjects": 9,
+        "developer": {
+            "name": "Amit Verma",
+            "country": "India"
+        },
+        "team": "Butterfly App Team",
+        "email": "varma@gmail.com",
+        "img": "https://media.licdn.com/dms/image/D4D12AQEwG6NwGT1G9A/article-cover_image-shrink_600_2000/0/1670973138645?e=2147483647&v=beta&t=x_mwfHo2xzP8iM4Xd9KSE4-1kb0D8u3qqFrmWapF5YE"
+    }
+    ,
+    {
+        "role": "UI/UX Developer",
+        "description": "Combines frontend development with UX design to create interactive web applications.",
+        "skills": ["HTML", "CSS", "JavaScript", "UI/UX Design", "Responsive Design"],
+        "currentWorkingProjects": 4,
+        "completedProjects": 10,
+        "developer": {
+            "name": "Pooja Sharma",
+            "country": "India"
+        },
+        "team": "Octopus Web Team",
+        "email": "pooja@gmail.com",
+        "img": "https://www.axa.co.uk/globalassets/new-website/business/who-we-cover/it-contractors/itcontractor_v2.jpg?width=1600&mode=crop&heightratio=0.5625&quality=80"
+    },
+    {
+        "role": "Web Developer",
+        "description": "Develops software applications and systems for the web.",
+        "skills": ["HTML", "CSS", "JavaScript", "Backend Development"],
+        "currentWorkingProjects": 5,
+        "completedProjects": 15,
+        "developer": {
+            "name": "Rajesh Kumar",
+            "country": "India"
+        },
+        "team": "Octopus Web Team",
+        "email": "kumar@gmail.com",
+        "img": "https://www.open.edu.au/-/media/blog/2022/10-october/software-developer-vs-engineer_edited.jpg?h=402&iar=0&w=715&rev=22dc593363e74d4285cb4042c8401af0&hash=A719998C2F009EC9F76F63BFCDFBD24A"
+        },{
+            "role": "Software Developer",
+            "description": "Develops software applications and systems.",
+            "skills": ["Java", "Python", "JavaScript", "C++"],
+            "currentWorkingProjects": 5,
+            "completedProjects": 20,
+            "developer": {
+                "name": "Rajesh Kumar",
+                "country": "India"
+            },
+            "team": "Nano Soft Team",
+            "email": "rajesh1@gmail.com",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G18EiL5lZOsEzraUS77EHgFHaqS_NLbpgficsDQ88wnUR4RXYCVSY5HEoC8mNBXUCpA&usqp=CAU"
+        },
+        {
+            "role": "Software Developer",
+            "description": "Develops software applications and systems.",
+            "skills": ["Java", "Python", "JavaScript", "C++"],
+            "currentWorkingProjects": 5,
+            "completedProjects": 20,
+            "developer": {
+                "name": "Rajesh Kumar",
+                "country": "India"
+            },
+            "team": "Nano Soft Team",
+            "email": "rajesh2@gmail.com",
+            "img": "https://static.toiimg.com/photo/resizemode-75,overlay-toiplus,msid-86806936/86806936.jpg"
+        },
+        {
+            "role": "AI/ML Engineer",
+            "description": "Develops artificial intelligence and machine learning models and applications.",
+            "skills": ["Machine Learning", "Deep Learning", "Python", "Data Science"],
+            "currentWorkingProjects": 5,
+            "completedProjects": 14,
+            "developer": {
+                "name": "Varun Sharma",
+                "country": "India"
+            },
+            "team": "Nano Soft Team",
+            "email": "varun@gmail.com",
+            "img": "https://www.templeton-recruitment.com/hs-fs/hubfs/ezgif.com-gif-maker(1).png?width=1200&name=ezgif.com-gif-maker(1).png"
+        },
+        {
+            "role": "Quality Assurance Engineer",
+            "description": "Tests software applications to ensure quality and functionality.",
+            "skills": ["Test Automation", "Manual Testing", "Bug Tracking", "Test Case Design"],
+            "currentWorkingProjects": 3,
+            "completedProjects": 11,
+            "developer": {
+                "name": "Suresh Gupta",
+                "country": "India"
+            },
+            "team": "Nano Soft Team",
+            "email": "gupta@gmail.com",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNaq_-xwt9Ho6QbqiZbID7ut98GriaRxBWDg&usqp=CAU"
+        }
+        ,
+        {
+            "role": "Digital Marketer",
+            "description": "Manages and executes digital marketing campaigns.",
+            "skills": ["SEO", "SEM", "Social Media Marketing", "Content Marketing"],
+            "currentWorkingProjects": 4,
+            "completedProjects": 15,
+            "developer": {
+                "name": "Neha Verma",
+                "country": "India"
+            },
+            "team": "Butterfly App Team",
+            "email": "naha@gmail.com",
+            "img": "https://www.axa.co.uk/globalassets/new-website/business/who-we-cover/it-contractors/itcontractor_v2.jpg?width=1600&mode=crop&heightratio=0.5625&quality=80"
+        },
+        {
+            "role": "Content Strategist",
+            "description": "Develops strategies for content creation and distribution.",
+            "skills": ["Content Planning", "Audience Research", "Content Calendar Management", "SEO Strategy"],
+            "currentWorkingProjects": 3,
+        "completedProjects": 9,
+        "developer": {
+            "name": "Arun Khanna",
+            "country": "India"
+        },
+        "team": "Om-Gonisha team",
+        "email": "arun@gmail.com",
+        "img": "https://media.licdn.com/dms/image/D4D12AQEwG6NwGT1G9A/article-cover_image-shrink_600_2000/0/1670973138645?e=2147483647&v=beta&t=x_mwfHo2xzP8iM4Xd9KSE4-1kb0D8u3qqFrmWapF5YE"
+    },
+    {
+        "role": "Software Developer",
+        "description": "Develops software applications and systems.",
+        "skills": ["Java", "Python", "JavaScript", "C++"],
+        "currentWorkingProjects": 5,
+        "completedProjects": 20,
+        "developer": {
+            "name": "Rajesh Kumar",
+            "country": "India"
+        },
+        "team": "Nano Soft Team",
+        "email": "kumar2@gmail.com",
+        "img": "https://www.open.edu.au/-/media/blog/2022/10-october/software-developer-vs-engineer_edited.jpg?h=402&iar=0&w=715&rev=22dc593363e74d4285cb4042c8401af0&hash=A719998C2F009EC9F76F63BFCDFBD24A"
+    },
+    {
+        "role": "App Developer",
+        "description": "Creates mobile and desktop applications.",
+        "skills": ["Swift", "React Native", "Java", "Kotlin"],
+        "currentWorkingProjects": 3,
+        "completedProjects": 12,
+        "developer": {
+            "name": "Priya Sharma",
+            "country": "India"
+        },
+        "team": "Om-Gonisha team",
+        "email": "priya@gmail.com",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G18EiL5lZOsEzraUS77EHgFHaqS_NLbpgficsDQ88wnUR4RXYCVSY5HEoC8mNBXUCpA&usqp=CAU"
+    },
+    {
+        "role": "UI/UX Developer",
+        "description": "Combines frontend development with UX design to create interactive web applications.",
+        "skills": ["HTML", "CSS", "JavaScript", "UI/UX Design", "Responsive Design"],
+        "currentWorkingProjects": 4,
+        "completedProjects": 10,
+        "developer": {
+            "name": "Pooja Sharma",
+            "country": "India"
+        },
+        "team": "Om-Gonisha team",
+        "email": "pooja3@gmail.com",
+        "img": "https://static.toiimg.com/photo/resizemode-75,overlay-toiplus,msid-86806936/86806936.jpg"
+    },
+    
+    {
+        "role": "AI/ML Engineer",
+        "description": "Develops artificial intelligence and machine learning models and applications.",
+        "skills": ["Machine Learning", "Deep Learning", "Python", "Data Science"],
+        "currentWorkingProjects": 5,
+        "completedProjects": 14,
+        "developer": {
+            "name": "Varun Sharma",
+            "country": "India"
+        },
+        "team": "Om-Gonisha team",
+        "email": "varun4@gmail.com",
+        "img": "https://st4.depositphotos.com/1662991/31353/i/450/depositphotos_313539636-stock-photo-handsome-young-male-software-developer.jpg"
+    },
+    {
+        "role": "Quality Assurance Engineer",
+        "description": "Tests software applications to ensure quality and functionality.",
+        "skills": ["Test Automation", "Manual Testing", "Bug Tracking", "Test Case Design"],
+        "currentWorkingProjects": 3,
+        "completedProjects": 11,
+        "developer": {
+            "name": "Suresh Gupta",
+            "country": "India"
+        },
+        "team": "Om-Gonisha team",
+        "email": "suresh@gmail.com",
+        "img": "https://img.freepik.com/free-photo/side-view-attractive-hispanic-developer-programming-software-using-computer-while-working-from-home_662251-988.jpg?w=360"
+    },
+    {
+        "role": "Content Creator",
+        "description": "Produces various forms of content, such as blog posts, videos, and podcasts.",
+        "skills": ["Content Writing", "Video Editing", "Podcast Production", "SEO"],
+        "currentWorkingProjects": 6,
+        "completedProjects": 18,
+        "developer": {
+            "name": "Ravi Verma",
+            "country": "India"
+        },
+        "team": "Om-Gonisha team",
+        "email": "ravi@gmail.com",
+        "img": "https://media.istockphoto.com/id/1221206634/photo/business-can-not-wait.jpg?s=612x612&w=0&k=20&c=FrLLcWTXVN-S0Fs1zoo_2b2jyFpkrovHrsl6sHZs76U="
+    },
+    {
+        "role": "Product Manager",
+        "description": "Oversees the development and lifecycle of digital products.",
+        "skills": ["Product Strategy", "Project Management", "Market Research", "User Feedback Analysis"],
+        "currentWorkingProjects": 2,
+        "completedProjects": 7,
+        "developer": {
+            "name": "Neha Patel",
+            "country": "India"
+        },
+        "team": "Om-Gonisha team",
+        "email": "neha5@gmail.com",
+        "img": "https://media.istockphoto.com/id/1163541808/photo/portrait-of-nice-attractive-confident-content-cheerful-bearded-guy-wearing-checked-shirt.jpg?s=612x612&w=0&k=20&c=JGjOItCa7PeEHnOVbt8uuiINQRx3A4gIaBp9W9C1aZI="
+    },
+    {
+        "role": "Network Administrator",
+        "description": "Manages and maintains computer networks and infrastructure.",
+        "skills": ["Network Configuration", "Security", "Troubleshooting", "Network Monitoring"],
+        "currentWorkingProjects": 4,
+        "completedProjects": 9,
+        "developer": {
+            "name": "Amit Khurana",
+            "country": "India"
+        },
+        "email": "amit@gmail.com",
+        "team": "Om-Gonisha team",
+        "img": "https://toghr.com/wp-content/uploads/2021/07/fi-web-12-juli-2021.jpg"
+    }
+    ,
+    {
+        "role": "Database Administrator",
+        "description": "Manages and maintains databases for efficient data storage.",
+        "skills": ["SQL", "Database Security", "Performance Tuning", "Backup and Recovery"],
+        "currentWorkingProjects": 4,
+        "completedProjects": 12,
+        "developer": {
+            "name": "Amit Kumar",
+            "country": "India"
+        },
+        "team": "Rose Database Team",
+        "email": "amit6@gmail.com",
+        "img": "https://calbizjournal.com/wp-content/uploads/2022/08/software-engineers.jpg"
+    },
+    {
+        "role": "Data Warehouse Developer",
+        "description": "Designs and develops data warehouses for storing and analyzing large datasets.",
+        "skills": ["ETL Processes", "Data Modeling", "Data Integration", "Data Warehousing Tools"],
+        "currentWorkingProjects": 3,
+        "completedProjects": 9,
+        "developer": {
+            "name": "Sonia Reddy",
+            "country": "India"
+        },
+        "team": "Rose Database Team",
+        "email": "reddy@gmail.com",
+        "img": "https://media.istockphoto.com/id/577626376/photo/indian-business-team.jpg?s=612x612&w=0&k=20&c=4af3o-4uzVfBJaeadKhKKPDRHm_KW-5_p3darY1YBK4="
+    },
+    {
+        "role": "Database Analyst",
+        "description": "Analyzes database performance and provides insights for optimization.",
+        "skills": ["SQL Queries", "Database Performance Analysis", "Data Reporting", "Query Optimization"],
+        "currentWorkingProjects": 2,
+        "completedProjects": 7,
+        "developer": {
+            "name": "Rajesh Sharma",
+            "country": "India"
+        },
+        "team": "Rose Database Team",
+        "email": "reddy3@gmail.com",
+        "img": "https://thumbs.dreamstime.com/b/indian-software-developer-working-office-54668854.jpg"
+    },
+    {
+        "role": "Database Developer",
+        "description": "Develops and maintains database-driven applications and systems.",
+        "skills": ["SQL", "Database Design", "Stored Procedures", "Database Integration"],
+        "currentWorkingProjects": 5,
+        "completedProjects": 14,
+        "developer": {
+            "name": "Neha Gupta",
+            "country": "India"
+        },
+        "team": "Butterfly App Team",
+        "email": "gupta7@gmail.com",
+        "img": "https://thumbs.dreamstime.com/b/young-busy-indian-business-man-office-worker-working-laptop-sitting-desk-employee-computer-work-arabic-manager-using-252756465.jpg"
+    },
+    {
+        "role": "Data Migration Specialist",
+        "description": "Specializes in migrating data between databases and systems.",
+        "skills": ["Data Extraction", "Data Mapping", "ETL Processes", "Data Cleansing"],
+        "currentWorkingProjects": 3,
+        "completedProjects": 10,
+        "developer": {
+            "name": "Rahul Kumar",
+            "country": "India"
+        },
+        "team": "Rose Database Team",
+        "email": "kumerR@gmail.com",
+        "img": "https://thumbs.dreamstime.com/b/working-developer-indian-software-computer-his-office-table-114804165.jpg"
+    }
+    ,
+    {
+        "role": "Database Administrator",
+        "description": "Manages and maintains databases for efficient data storage.",
+        "skills": ["SQL", "Database Security", "Performance Tuning", "Backup and Recovery"],
+        "currentWorkingProjects": 4,
+        "completedProjects": 12,
+        "developer": {
+            "name": "Amit Kumar",
+            "country": "India"
+        },
+        "team": "Tiger Data Warehouse Team",
+        "email": "kumer10@gmail.com",
+        "img": "https://thumbs.dreamstime.com/b/engineer-contemporary-programmer-casualwear-sitting-desk-front-computer-monitor-developing-new-software-140480212.jpg"
+    },
+    {
+        "role": "Data Warehouse Developer",
+        "description": "Designs and develops data warehouses for storing and analyzing large datasets.",
+        "skills": ["ETL Processes", "Data Modeling", "Data Integration", "Data Warehousing Tools"],
+        "currentWorkingProjects": 3,
+        "completedProjects": 9,
+        "developer": {
+            "name": "Sonia Reddy",
+            "country": "India"
+        },
+        "team": "Tiger Data Warehouse Team",
+        "email": "sonia2@gmail.com",
+        "img": "https://thumbs.dreamstime.com/b/indian-front-end-developer-enjoying-music-headphone-working-website-application-front-end-developer-working-251216749.jpg"
+    },
+    {
+        "role": "Database Analyst",
+        "description": "Analyzes database performance and provides insights for optimization.",
+        "skills": ["SQL Queries", "Database Performance Analysis", "Data Reporting", "Query Optimization"],
+        "currentWorkingProjects": 2,
+        "completedProjects": 7,
+        "developer": {
+            "name": "Rajesh Sharma",
+            "country": "India"
+        },
+        "team": "Tiger Data Warehouse Team",
+        "email": "sharma12@gmail.com",
+        "img": "https://media.istockphoto.com/id/948995874/photo/busy-it-engineer.jpg?s=612x612&w=0&k=20&c=wcUQUOBuSfOCVugrsAQ4bW6ia4U5X7sxy4dqryWMEpw="
+    },
+    {
+        "role": "Database Developer",
+        "description": "Develops and maintains database-driven applications and systems.",
+        "skills": ["SQL", "Database Design", "Stored Procedures", "Database Integration"],
+        "currentWorkingProjects": 5,
+        "completedProjects": 14,
+        "developer": {
+            "name": "Neha Gupta",
+            "country": "India"
+        },
+        "team": "Octopus Web Team",
+        "email": "neha14@gmail.com",
+        "img": "https://media.istockphoto.com/id/1356364177/photo/portrait-of-handsome-indian-man-working-on-desktop-computer-professional-programmer-creates.jpg?s=612x612&w=0&k=20&c=DWtJ7yZAx-HmqWqjiLoXFwbpVIKph782fRmlJ9TJuqE="
+    },
+    {
+        "role": "Data Migration Specialist",
+        "description": "Specializes in migrating data between databases and systems.",
+        "skills": ["Data Extraction", "Data Mapping", "ETL Processes", "Data Cleansing"],
+        "currentWorkingProjects": 3,
+        "completedProjects": 10,
+        "developer": {
+            "name": "Rahul Kumar",
+            "country": "India"
+        },
+        "team": "Tiger Data Warehouse Team",
+        "email": "kumar15@gmail.com",
+        "img": "https://media.istockphoto.com/id/1465787743/photo/successful-mature-asian-working-inside-office-using-laptop-man-typing-on-keyboard-and-smiling.jpg?s=612x612&w=0&k=20&c=kLtmcwno4INHb1V2ZIA8GwXumSeBljGwAHLr7nUbIzA="
+    },
+    
+    {
+        "role": "Graphic Designer",
+        "description": "Designs visuals, graphics, and layouts.",
+        "skills": ["Adobe Photoshop", "Illustrator", "CorelDRAW", "UI/UX Design"],
+        "currentWorkingProjects": 2,
+        "completedProjects": 8,
+        "developer": {
+            "name": "Amit Patel",
+            "country": "India"
+        },
+        "team": "Sunflower Graphics Team",
+        "email": "partel15@gmail.com",
+        "img": "https://www.templeton-recruitment.com/hs-fs/hubfs/ezgif.com-gif-maker(1).png?width=1200&name=ezgif.com-gif-maker(1).png"
+    },
+    {
+        "role": "Graphic Designer",
+        "description": "Designs visuals, graphics, and layouts.",
+            "skills": ["Adobe Photoshop", "Illustrator", "CorelDRAW", "UI/UX Design"],
+            "currentWorkingProjects": 2,
+            "completedProjects": 8,
+            "developer": {
+                "name": "Sara Roy",
+                "country": "India"
+            },
+            "team": "Sunflower Graphics Team",
+            "email": "roy@gmail.com",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNaq_-xwt9Ho6QbqiZbID7ut98GriaRxBWDg&usqp=CAU"
+        },
+        {
+            "role": "Graphic Designer",
+            "description": "Designs visuals, graphics, and layouts.",
+            "skills": ["Adobe Photoshop", "Illustrator", "CorelDRAW", "UI/UX Design"],
+            "currentWorkingProjects": 2,
+            "completedProjects": 8,
+            "developer": {
+                "name": "Rahul Mehta",
+                "country": "India"
+            },
+            "team": "Butterfly App Team",
+            "email": "mwhta@gmail.com",
+            "img": "https://www.axa.co.uk/globalassets/new-website/business/who-we-cover/it-contractors/itcontractor_v2.jpg?width=1600&mode=crop&heightratio=0.5625&quality=80"
+        },
+        {
+            "role": "Graphic Designer",
+            "description": "Designs visuals, graphics, and layouts.",
+            "skills": ["Adobe Photoshop", "Illustrator", "CorelDRAW", "UI/UX Design"],
+            "currentWorkingProjects": 2,
+            "completedProjects": 8,
+            "developer": {
+                "name": "Priya Singh",
+                "country": "India"
+            },
+            "team": "Sunflower Graphics Team",
+            "email": "singh@gmail.com",
+            "img": "https://media.licdn.com/dms/image/D4D12AQEwG6NwGT1G9A/article-cover_image-shrink_600_2000/0/1670973138645?e=2147483647&v=beta&t=x_mwfHo2xzP8iM4Xd9KSE4-1kb0D8u3qqFrmWapF5YE"
+        },
+        {
+            "role": "Graphic Designer",
+            "description": "Designs visuals, graphics, and layouts.",
+            "skills": ["Adobe Photoshop", "Illustrator", "CorelDRAW", "UI/UX Design"],
+            "currentWorkingProjects": 2,
+            "completedProjects": 8,
+            "developer": {
+                "name": "Raj Mehta",
+                "country": "India"
+            },
+            "team": "Sunflower Graphics Team",
+            "email": "raj@gmail.com",
+            "img": "https://www.open.edu.au/-/media/blog/2022/10-october/software-developer-vs-engineer_edited.jpg?h=402&iar=0&w=715&rev=22dc593363e74d4285cb4042c8401af0&hash=A719998C2F009EC9F76F63BFCDFBD24A"
+        },
+        
+        {
+            "role": "Graphic Designer",
+            "description": "Designs visuals, graphics, and layouts.",
+            "skills": ["Adobe Photoshop", "Illustrator", "CorelDRAW", "UI/UX Design"],
+            "currentWorkingProjects": 3,
+                "completedProjects": 9,
+                "developer": {
+                    "name": "Sara Shah",
+                    "country": "India"
+                },
+                "team": "Octopus Web Team",
+                "email": "sara@gmail.com",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G18EiL5lZOsEzraUS77EHgFHaqS_NLbpgficsDQ88wnUR4RXYCVSY5HEoC8mNBXUCpA&usqp=CAU"
+            },
+            {
+                "role": "Graphic Designer",
+                "description": "Designs visuals, graphics, and layouts.",
+                "skills": ["Adobe Photoshop", "Illustrator", "CorelDRAW", "UI/UX Design"],
+                "currentWorkingProjects": 3,
+                "completedProjects": 9,
+                "developer": {
+                    "name": "Raj Patel",
+                    "country": "India"
+                },
+                "team": "Eagle Graphics Team",
+                "email": "rajaram@gmail.com",
+                "img": "https://static.toiimg.com/photo/resizemode-75,overlay-toiplus,msid-86806936/86806936.jpg"
+            },
+            {
+                "role": "Graphic Designer",
+                "description": "Designs visuals, graphics, and layouts.",
+                "skills": ["Adobe Photoshop", "Illustrator", "CorelDRAW", "UI/UX Design"],
+                "currentWorkingProjects": 3,
+                "completedProjects": 9,
+                "developer": {
+                    "name": "Nisha Verma",
+                    "country": "India"
+                },
+                "team": "Eagle Graphics Team",
+                "email": "verma8@gmail.com",
+                "img": "https://www.templeton-recruitment.com/hs-fs/hubfs/ezgif.com-gif-maker(1).png?width=1200&name=ezgif.com-gif-maker(1).png"
+            },
+            {
+                "role": "Graphic Designer",
+                "description": "Designs visuals, graphics, and layouts.",
+                "skills": ["Adobe Photoshop", "Illustrator", "CorelDRAW", "UI/UX Design"],
+                "currentWorkingProjects": 3,
+                "completedProjects": 9,
+                "developer": {
+                    "name": "Amit Saxena",
+                    "country": "India"
+                },
+                "team": "Eagle Graphics Team",
+                "email": "amit@gmail.com",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNaq_-xwt9Ho6QbqiZbID7ut98GriaRxBWDg&usqp=CAU"
+            },
+            {
+                "role": "Graphic Designer",
+                "description": "Designs visuals, graphics, and layouts.",
+                "skills": ["Adobe Photoshop", "Illustrator", "CorelDRAW", "UI/UX Design"],
+                "currentWorkingProjects": 3,
+                "completedProjects": 9,
+                "developer": {
+                    "name": "Raton Kumar",
+                    "country": "India"
+                },
+                "team": "Eagle Graphics Team",
+                "email": "raton@gmail.com",
+                "img": "https://www.axa.co.uk/globalassets/new-website/business/who-we-cover/it-contractors/itcontractor_v2.jpg?width=1600&mode=crop&heightratio=0.5625&quality=80"
+            }
+        ]
+        
+    
+
+    
+
+
+
+

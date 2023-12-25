@@ -49,7 +49,7 @@ const Task = ({ task }) => {
 
 
 
-      {taskId === task_id && <tr className={`bg2 ${show ? '' : 'hidden'} md:h-60 text-lg -mt-40`} >
+      {taskId === task_id && <tr className={`bg2  ${show ? '' : 'hidden'} md:h-60 text-lg -mt-40`} >
         {/* {taskId === task_id && <tr className={`bg2  md:h-60 text-lg -mt-40`} > */}
         <td colSpan="5"  >
           <div className="py-4 border-b-[1px] border-gray-600 "><strong>Description :</strong> {description}</div>
@@ -66,8 +66,9 @@ const Task = ({ task }) => {
               <div>{status === 'to do' && <div><Link to={`/StartTask/${_id}`}> <button className='btn btn-sm w-28 border-blue-300 hover:bg-slate-700  bg2 border'>Start task </button> </Link></div>}
 
                 {status === 'doing' &&
+                <Link to={`/StartTask/${_id}`}>
                   <div> <strong className=''> Working by : </strong>  <span className=' text-cyan-500 font-semibold '> {task_performer.name}</span>
-                  </div>}
+                  </div> </Link>}
 
               </div>
 

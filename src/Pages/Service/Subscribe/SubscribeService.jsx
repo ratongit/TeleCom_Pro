@@ -5,7 +5,6 @@ const SubscribeService = () => {
     console.log(id)
     return (
 
-        // Post Operation //
         <div>
 
 

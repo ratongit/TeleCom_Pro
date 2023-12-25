@@ -5,7 +5,7 @@ import Task from './Task';
 const Done = () => {
     const {Done}=useDatabase()
     return (
-        <div className="overflow-x-auto darktheme1 w-[92%] mt-10 rounded-md  ">
+        <div className="overflow-x-auto darktheme1 w-[92%] my-10 rounded-md  ">
             
             <h1 className='center my-3 md:my-5 '>
             Developed Projects ( <span className='text-green-300 text-[18px]'>Done Task : {Done.length}</span> )

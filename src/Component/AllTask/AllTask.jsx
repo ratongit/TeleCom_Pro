@@ -6,13 +6,15 @@ import useDatabase from '../Hooks/useDatabase';
 import useShowAll from '../Hooks/useShowAll';
 const AllTask = () => {
 
-  const { activeTaskId, handleDetails, setActiveTaskId } = useContext(AuthContext)
+  const { activeTaskId, handleDetails, setActiveTaskId} = useContext(AuthContext)
+
+
   const {alltasks} = useDatabase()
 
   const { showAll ,handleShow , array}=useShowAll(alltasks)
   
   return (
-    <div className="overflow-x-auto darktheme1 w-[92%]  mt-10 rounded-md  ">
+    <div className="overflow-x-auto darktheme1 w-[92%]  my-10 rounded-md  ">
      <h1 className=' my-3 md:my-5 center '>
             ALL Projects ( <span className='text-blue-300 text-[18px]'>All Task : {alltasks?.length}</span> )
            </h1>
@@ -37,7 +39,7 @@ const AllTask = () => {
       </table>
 
 <div className='text-center my-3'>
-  <button  onClick={()=>handleShow()} className='btn bg-blue-300  px-32 bg-opacity-60 hover:bg-blue-500 '> {!showAll?<>Show All </>:<>Show Less</>}</button>
+  <button  onClick={()=>handleShow()} className='bg2 border px-32 py-1 rounded-md hover:bg-slate-700 '> {!showAll?<>Show All </>:<>Show Less</>}</button>
 </div>
 
     </div>

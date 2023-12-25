@@ -9,11 +9,7 @@ const useShowAll = (setArrays) => {
     };
 
     const array = setArrays.slice(0, showAll ? setArrays.length : 5)
-
     return { showAll, handleShow, array,}
-    //  {showAll ? 'Show Less' : 'Show All'}
-
-
 };
 
 export default useShowAll;

@@ -6,6 +6,9 @@ import Done from '../../Component/AllTask/Done';
 import AllTask from '../../Component/AllTask/AllTask';
 import Pending from '../../Component/AllTask/Pending';
 import Services from '../Service/Service';
+import BarChart from './BerChart';
+import CardBarChart from './BerChart';
+import LineChart from './lineChart';
 const Home = () => {
 
     const { status } = useContext(AuthContext)
@@ -56,6 +59,8 @@ const Home = () => {
                 <Pending></Pending>
             </div> 
 
+<CardBarChart></CardBarChart>
+<LineChart></LineChart>
         </div>
     );
 };

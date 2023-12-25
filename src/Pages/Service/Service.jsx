@@ -73,7 +73,7 @@ const Services = () => {
 
     return (
         <div>
-            <div className="container  my-5 w-[90%]   mx-auto">
+            <div className="container mb-14  my-5 w-[90%]   mx-auto">
 
                 <div className="mb-7 flex justify-between  sm:mb-0 ">
                     <h3 className='text-3xl font-bold'>Our Service</h3>

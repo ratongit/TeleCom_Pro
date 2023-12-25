@@ -13,6 +13,8 @@ import Services from "../Pages/Service/Service";
 import Details from "../Pages/Service/Details/Details";
 import SubscribeService from "../Pages/Service/Subscribe/SubscribeService";
 import StartTask from "../Pages/StartTask/StartTask";
+import Favourite from "../Pages/Favourite/Favourite";
+import Developer from "../Pages/AllDeveloper/Developer";
 
 
 const router = createBrowserRouter([
@@ -61,6 +63,10 @@ const router = createBrowserRouter([
             element:<TaskCreate></TaskCreate>
           },
           {
+            path:'/developer',
+            element:<Developer></Developer>
+          },
+          {
             path: '/updatetask',
             element: <UpdateTask></UpdateTask>
           },
@@ -71,6 +77,11 @@ const router = createBrowserRouter([
           {
             path: '/login',
             element:<Login></Login>
+          },
+          
+          {
+            path: '/favourite',
+            element:<Favourite></Favourite>
           },
           
           

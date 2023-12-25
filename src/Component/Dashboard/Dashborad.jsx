@@ -2,13 +2,31 @@ import React, { useContext, useState } from 'react';
 import AuthProniders, { AuthContext } from '../ContextApi/AuthProniders';
 import Navbar from '../Shearing Component/Navbar/Navbar';
 import logo from './../../assets/Octopus/businesslogo.png'
+import login from './../../assets/Octopus/logIn.png'
+import register from './../../assets/Octopus/register.png'
+import logout from './../../assets/Octopus/logOut.png'
+import alltask from './../../assets/Octopus/all task1.png'
+import todo from './../../assets/Octopus/todo.webp'
+import done from './../../assets/Octopus/done.png'
+import doing from './../../assets/Octopus/doing.png'
+import favourite from './../../assets/Octopus/savecard.png'
 import home from './../../assets/Octopus/home-removebg-preview.png'
+import serviceicone from './../../assets/Octopus/serviceIcone.png'
 import { Outlet } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaServicestack } from 'react-icons/fa';
+import { signOut } from 'firebase/auth';
+import { faFileContract } from '@fortawesome/free-solid-svg-icons';
+import useDatabase from '../Hooks/useDatabase';
 
 
 const Dashborad = () => {
   
-  const {show} = useContext(AuthContext)
+  const {show,auth} = useContext(AuthContext)
+
+  const handleLogOut=()=>{
+    signOut(auth)
+  }
 
 
   return (
@@ -39,38 +57,53 @@ const Dashborad = () => {
             <span className='text-yellow-400'>P</span>
             <span className='text-yellow-200'>u</span>
             <span className='text-yellow-200'>s</span>
-
         </h3>
-
 </div>
-
-
-
-
-
 
       <li ><a className='dashBoard-li' href='/'>
         <img src={home} className='icons' alt="" /> Home
         </a></li>
       <li ><a className='dashBoard-li' href='/alltask'>
-        <img src={home} className='icons' alt="" /> All Task
+      <img src={alltask} className='icons h-10' alt="" />
+        All Task
         </a></li>
       <li ><a className='dashBoard-li' href='/doing'>
-        <img src={home} className='icons' alt="" />Doing
+        <img src={doing} className='icons' alt="" />Doing
         </a></li>
       <li ><a className='dashBoard-li' href='/done'>
-        <img src={home} className='icons' alt="" />Done
+        <img src={done} className='icons' alt="" />Done
         </a></li>
       <li ><a className='dashBoard-li' href='/services'>
-        <img src={home} className='icons' alt="" />Services 
+      <img src={todo} className='icons h-10' alt="" /> To do
         </a></li>
-      <li ><a className='dashBoard-li' href='/signup '>
-        <img src={home} className='icons' alt="" />Sing Up 
-        </a></li>
-      <li ><a className='dashBoard-li' href='/login '>
-        <img src={home} className='icons' alt="" />Log In 
+
+      <li ><a className='dashBoard-li' href='/services'>
+      <img src={serviceicone} className='icons' alt="" /> Services 
         </a></li>
         
+              <li><a className='dashBoard-li' href='/favourite'>
+                <img src={favourite} className='icons' alt="" />Favourite  
+                </a></li>
+                
+{
+  !auth?.currentUser?.email &&
+<>
+      <li ><a className='dashBoard-li' href='/signup '>
+        <img src={register} className='icons' alt="" />Sing Up 
+        </a></li>
+      <li ><a className='dashBoard-li' href='/login '>
+        <img src={login} className='icons' alt="" />Log In 
+        </a></li>
+        </>
+      }
+
+{
+  auth?.currentUser?.email &&
+      <li onClick={()=>handleLogOut()}  ><a className='dashBoard-li' href='/login '>
+        <img src={logout} className='icons' alt="" />Log out 
+        </a></li>
+}
+
     </ul>
   
   </div>
@@ -82,127 +115,3 @@ const Dashborad = () => {
 
 export default Dashborad;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import { Link, Outlet } from 'react-router-dom';
-
-// const Dashboad = () => {
-//     return (
-// <div className="drawer lg:drawer-open ">
-//   <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-//   <div className="drawer-content flex flex-col items-center justify-center">
-//     {/* Page content here */}
-// <Outlet></Outlet>
-
-
-
-  
-//   </div> 
-//   <div className="drawer-side  max-lg:mt-16 ">
-//     <label htmlFor="my-drawer-2" className="drawer-overlay"></label> 
-//     <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content">
-//       {/* Sidebar content here */}
-
-//       <li className=' mb-4 text-2xl font-semibold'>  Dash Board </li>
-//       <Link to='/Charts'><li  className="text-lg uppercase leading-10 text-gray-700  font-semibold hover:bg-zinc-300 rounded-xl px-3 ">Admin </li></Link>
-// <li className="text-lg uppercase leading-10 text-gray-700  font-semibold hover:bg-zinc-300 rounded-xl px-3 ">Profile</li>
-// <li className="text-lg uppercase leading-10 text-gray-700  font-semibold hover:bg-zinc-300 rounded-xl px-3 ">Aprove Task</li>
-// <li className="text-lg uppercase leading-10 text-gray-700  font-semibold hover:bg-zinc-300 rounded-xl px-3 ">Pandding tesk</li>
-// <li className="text-lg uppercase leading-10 text-gray-700  font-semibold hover:bg-zinc-300 rounded-xl px-3 ">Add New Tast </li>
-// <li className="text-lg uppercase leading-10 text-gray-700  font-semibold hover:bg-zinc-300 rounded-xl px-3 ">Grouth Report</li>
-
-//     </ul>
-  
-//   </div>
-// </div>
-
-//     );
-// };
-
-// export default Dashboad;
-
-
-
-
-
-
-
-
-
-
-
-
-// import React, { useState } from 'react';
-// // import Navbar from '../Navbar/Navbar';
-// // import './Dashboard.css';
-// // import DashBoardMainContent from './DashBoardContent';
-// import { Outlet } from 'react-router-dom';
-
-// const Dashboard = () => {
-//   const [dashboardVisible, setDashboardVisible] = useState(true);
-//   const [dashboardVisibl] = useState(true);
-
-//   const DashBoardMainConten= <>
-//   <h1>hello</h1>
-//   </>
-
-//   // const toggleDashboardContent = () => {
-//   //   setDashboardVisible(!dashboardVisibl)
-//   // };
-
-//   // const dashboardContent = (<> <DashBoardMainContent></DashBoardMainContent> </>);
-
-//   return (
-//     <>
-//       <div className='sm:hidden '>
-//         {/* <Navbar toggleDashboard={() => setDashboardVisible(!dashboardVisible)} dashboardVisible={dashboardVisible} /> */}
-//       </div>
-
-//       <div className={`drawer ${dashboardVisible ? 'drawer-open ' : ''} `}>
-//         <input id="my-drawer" type="checkbox" className="drawer-toggle" checked={dashboardVisible} />
-//         <div className="drawer-content">
-
-//           <div className='max-sm:hidden'>
-//             {/* <Navbar toggleDashboard={() => setDashboardVisible(!dashboardVisible)} dashboardVisible={dashboardVisible} /> */}
-//           </div>
-
-//           {/* <div onClick={toggleDashboardContent}>
-//             {!dashboardVisible && (<ul className='ps-32 max-md:hidden max-sm:-ms-28'>{dashboardContent}</ul>)}
-//             {dashboardVisible && (<ul className='max-md:hidden max-sm:-ms-40'> {dashboardContent}</ul>)}
-//           </div>
-//           */}
-
-// <Outlet></Outlet>
-//         </div>
-
-//         <div className="drawer-side border-e-[1px] border-gray-700">
-//           <label htmlFor="my-drawer" className="drawer-overlay"></label>
-//           <ul className="menu p-4 w-64 max-sm:w-48  h-full  bg-navber text-white">
-//             <hr className='absolute border-[1px] border-gray-700 w-72  -ms-12  mt-[56px] max-sm:hidden' />
-          
-//             {/* <DashBoardMainContent></DashBoardMainContent> */}
-//             {DashBoardMainConten}
-
-//           </ul>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Dashboard;
