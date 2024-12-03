@@ -1,7 +1,11 @@
 import React, { useContext, useState } from 'react';
 import AuthProniders, { AuthContext } from '../ContextApi/AuthProniders';
 import Navbar from '../Shearing Component/Navbar/Navbar';
-import logo from './../../assets/Octopus/businesslogo.png'
+
+// import logo from './../../assets/Octopus/businesslogo.png'
+
+import logo from "./../../assets/TeleCom_Pro_Logo.png"
+
 import login from './../../assets/Octopus/logIn.png'
 import register from './../../assets/Octopus/register.png'
 import logout from './../../assets/Octopus/logOut.png'
@@ -48,15 +52,16 @@ const Dashborad = () => {
       
 
 <div className='max-lg:hidden items-center flex relative w-[272px] h-16 -ms-8 py-[33px] -mt-5 darktheme1  '>
-<img src={logo} className='w-40 max-md:w-32  ' alt="" />
-<h3 className={`text-3xl font-semibold text-indigo-200 -ms-10   ${show ? 'hidden': 'block'}`}>
-            <span className='text-indigo-400 text-4xl'>O</span>
-            <span >c</span>
-            <span>t</span>
-            <span>o</span>
-            <span className='text-yellow-400'>P</span>
-            <span className='text-yellow-200'>u</span>
-            <span className='text-yellow-200'>s</span>
+<img src={logo} className='w-14 max-md:w-14 mx-11 ' alt="" />
+<h3 className={`text-3xl font-semibold  -ms-10   ${show ? 'hidden': 'block'}`}>
+            <span className='text-indigo-500 text-4xl'>T</span>
+            <span className='text-indigo-400' >e</span>
+            <span className='text-indigo-300'>l</span>
+            <span className='text-indigo-200'>e</span>
+            <span className='text-purple-400'>C</span>
+            <span className='text-purple-300'>o</span>
+            <span className='text-purple-200'>m</span>
+
         </h3>
 </div>
 

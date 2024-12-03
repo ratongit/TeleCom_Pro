@@ -1,21 +1,21 @@
 import React from 'react';
 import '../Footer/Footer.css'
-import logo from '../../assets/Octopus/businesslogo.png'
+import logo from '../../assets/TeleCom_Pro_Logo.png'
 
 const Footer = () => {
     return (
         <div>
             <footer className="footer footer-center p-10 footer-bg  text-primary-content">
   <aside>
-    <img width="200" src={logo} alt="" />
+    <img className='w-12 mx-10 mb-10 mt-5' src={logo} alt="" />
 
     <p className="  -mt-16 text-xl font-extrabold" >
-    OctoPus Industries Ltd.
+    TeleCom Pro Industries Ltd.
     </p> 
     <p className="-mt-10 font-semibold" >
-    <br/>Providing reliable tech since 2000
+    <br/>Providing reliable tech & telecommunication solution since 2024
     </p> 
-    <p>Copyright © 2023 - All right reserved by OctoPus</p>
+    <p>Copyright © 2025 - All right reserved by Raton kumar & Octopas </p>
   </aside> 
   <nav>
     <div className="grid grid-flow-col gap-4">

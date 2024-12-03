@@ -1,6 +1,8 @@
 import { createContext, useEffect, useState } from "react";
 import { FaOutdent } from "react-icons/fa";
-import logo from './../../assets/Octopus/businesslogo.png'
+
+import logo from './../../assets/TeleCom_Pro_Logo.png'
+
 import ManuEnd from './../../assets/Octopus/HamberEnd.jpg'
 import ManuIcon from './../../assets/Octopus/Hamber.png'
 import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
@@ -66,15 +68,15 @@ useEffect(() => {
             </div>
 
         </label>
-        <img src={logo} className={`w-40 max-md:w-32 max-md:-mt-7  -m-5 -mt-10 opacity-90 hover:opacity-100 ${show ? 'block' : 'hidden'}`} alt="" />
+        <img src={logo} className={`w-12 m-5 -mt-1 opacity-90 hover:opacity-100 ${show ? 'block' : 'hidden'}`} alt="" />
         <h3 className={`text-3xl font-semibold -ms-5 text-indigo-200  opacity-90 hover:opacity-100  ${show ? 'block' : 'hidden'}`}>
-            <span className='text-indigo-400 text-4xl'>O</span>
-            <span >c</span>
-            <span>t</span>
-            <span>o</span>
-            <span className='text-yellow-400'>P</span>
-            <span className='text-yellow-200'>u</span>
-            <span className='text-yellow-200'>s</span>
+        <span className='text-indigo-500 text-4xl'>T</span>
+            <span className='text-indigo-400' >e</span>
+            <span className='text-indigo-300'>l</span>
+            <span className='text-indigo-200'>e</span>
+            <span className='text-purple-400'>C</span>
+            <span className='text-purple-300'>o</span>
+            <span className='text-purple-200'>m</span>
 
         </h3>
 

@@ -1,6 +1,9 @@
 import React, { useContext, useState } from 'react';
 import "./Navber.css";
-import logo from './../../../assets/Octopus/businesslogo.png'
+// import logo from './../../../assets/Octopus/businesslogo.png'
+import logo from './../../../assets/Octopus/TeleCom_Pro_Logo.png'
+
+
 import addItem from './../../../assets/Octopus/addCaed.png'
 import ManuIcon from './../../../assets/Octopus/hamber.png'
 import ManuEnd from './../../../assets/Octopus/HamberEnd.jpg'
@@ -58,8 +61,8 @@ const Navbar = () => {
 
 
 
-            <img src={logo} className='w-40 max-md:w-32 max-md:-mt-7
-             max-sm:hidden  -m-5 -mt-11 ' alt="" />
+            <img src={logo} className='w-12 max-md:w-12 
+             max-sm:hidden ms-3 -mt-1' alt="" />
           </label>
         </div>
 
@@ -101,7 +104,7 @@ const Navbar = () => {
 
           }
 
-          <img src={logo} className='w-40 max-md:w-32 sm:hidden  -m-5 -mt-6 ' alt="" />
+          <img src={logo} className='w-12 max-md:w-11 sm:hidden  -m-5 -mt-6 mr-3 ' alt="" />
           <ModalCompo></ModalCompo>
         </div>
 
