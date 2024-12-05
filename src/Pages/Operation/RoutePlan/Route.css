@@ -1,0 +1,23 @@
+
+  .input-animation  + .impact-input {
+    top: -15px;
+    left: 12px;
+    width: 120px;
+    font-size: 15px;
+    text-align: center;
+    padding:2px 14px;
+    background: darktheme1;
+    color: #423863;
+    border-left:2px solid #033892;
+    border-right:2px solid #033892;
+
+    background: rgb(1, 32, 55);
+    color: rgb(144, 170, 186);
+    border: .1px solid rgba(61, 230, 249, 0.157);
+
+  
+  }
+  
+ .impact-card-container{
+width: 80%;
+  }

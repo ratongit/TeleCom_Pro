@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import video1 from "./../../assets/Videos/Video1.mp4"
-import video2 from "./../../assets/Videos/Video2.mp4";
+import video2 from "./../../assets/Videos/Video1.mp4"
+import video1 from "./../../assets/Videos/Video2.mp4";
 
 const VideoPlayer = () => {
   const videos = [video1, video2 ]; // List of videos
@@ -16,7 +16,7 @@ const VideoPlayer = () => {
     >
 
       {/* RGB Overlay start*/}
-      <div className="absolute -inset-3 bg-gradient-to-tr from-red-800 via-green-400 to-blue-100 opacity-90 mix-blend-overlay z-10 pointer-events-none"></div>
+      {/* <div className="absolute -inset-3 bg-gradient-to-tr from-red-800 via-green-400 to-blue-100 opacity-90 mix-blend-overlay z-10 pointer-events-none"></div> */}
       {/* RGB Overlay end*/}
 
       {/* Video */}

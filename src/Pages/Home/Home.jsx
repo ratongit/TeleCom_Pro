@@ -11,6 +11,7 @@ import CardBarChart from './BerChart';
 import LineChart from './lineChart';
 import Banner from './Banner';
 import VideoPlayer from './VideoPlayer';
+import RoutePlan from '../Operation/RoutePlan/RoutePlan';
 const Home = () => {
 
     const { status } = useContext(AuthContext)
@@ -48,6 +49,11 @@ const Home = () => {
             <div className={`w-full flex justify-center `}>
                 <VideoPlayer></VideoPlayer>
             </div>
+<div className={`w-full flex justify-center `}>
+         <RoutePlan></RoutePlan>
+</div>
+
+
 
             <Card></Card>
 
