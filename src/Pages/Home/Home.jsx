@@ -9,44 +9,59 @@ import Services from '../Service/Service';
 import BarChart from './BerChart';
 import CardBarChart from './BerChart';
 import LineChart from './lineChart';
+import Banner from './Banner';
+import VideoPlayer from './VideoPlayer';
 const Home = () => {
 
     const { status } = useContext(AuthContext)
     let alltasks = false
     let doing = false
     let done = false
-    let pending  = true
+    let pending = true
 
     if (status === "all-task") {
         alltasks = true
         done = false
         doing = false
-        pending  = false
+        pending = false
 
     } else if (status === "doing") {
         alltasks = false
         doing = true
         done = false
-        pending  = false
+        pending = false
     } else if (status === "done") {
         alltasks = false
         doing = false
-        pending  = false
+        pending = false
         done = true
-    } else if (pending  === 'pending ') {
+    } else if (pending === 'pending ') {
         alltasks = false
         doing = false
-        pending  = true
+        pending = true
         done = false
     }
 
     return (
         <div className='w-full h-full mx-auto'>
-            
+
+            <div className={`w-full flex justify-center `}>
+                <VideoPlayer></VideoPlayer>
+            </div>
+
             <Card></Card>
 
+            <div className={`w-full flex justify-center `}>
+                <Banner></Banner>
+            </div>
 
-           <div className={`${alltasks || 'hidden'} w-full flex justify-center `}>
+
+
+
+
+
+
+            <div className={`${alltasks || 'hidden'} w-full flex justify-center `}>
                 <AllTask></AllTask>
             </div>
             <div className={`${done || 'hidden'} w-full flex justify-center `}>
@@ -55,12 +70,12 @@ const Home = () => {
             <div className={`${doing || 'hidden'} w-full flex justify-center `}>
                 <Doing></Doing>
             </div>
-            <div className={`${!pending  && 'hidden'} w-full flex justify-center `}> 
+            <div className={`${!pending && 'hidden'} w-full flex justify-center `}>
                 <Pending></Pending>
-            </div> 
+            </div>
 
-<CardBarChart></CardBarChart>
-<LineChart></LineChart>
+            <CardBarChart></CardBarChart>
+            <LineChart></LineChart>
         </div>
     );
 };
