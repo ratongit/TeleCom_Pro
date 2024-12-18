@@ -12,6 +12,8 @@ import LineChart from './lineChart';
 import Banner from './Banner';
 import VideoPlayer from './VideoPlayer';
 import RoutePlan from '../Operation/RoutePlan/RoutePlan';
+import InputForm from '../Operation/RoutePlan/Input';
+import RoutePlanner from '../Operation/RoutePlan/RoutePlanner/RoutePlaner';
 const Home = () => {
 
     const { status } = useContext(AuthContext)
@@ -44,44 +46,58 @@ const Home = () => {
     }
 
     return (
-        <div className='w-full h-full mx-auto'>
 
+        <div>
+
+            {/* <InputForm></InputForm> */}
+
+            <div className='w-full h-full mx-auto'>
+
+                <div className={`w-full flex justify-center `}>
+                    <VideoPlayer></VideoPlayer>
+                </div>
+
+
+
+                <div className={`w-full flex justify-center `}>
+                    <RoutePlanner></RoutePlanner>
+                </div>
+
+
+                <div className={`w-full flex justify-center `}>
+                    <Banner></Banner>
+                </div>
+
+
+
+
+                {/* 
             <div className={`w-full flex justify-center `}>
-                <VideoPlayer></VideoPlayer>
+            <RoutePlan></RoutePlan>
+            </div> */}
+
+                <Card></Card>
+
+
+                <InputForm></InputForm>
+
+
+                <div className={`${alltasks || 'hidden'} w-full flex justify-center `}>
+                    <AllTask></AllTask>
+                </div>
+                <div className={`${done || 'hidden'} w-full flex justify-center `}>
+                    <Done></Done>
+                </div>
+                <div className={`${doing || 'hidden'} w-full flex justify-center `}>
+                    <Doing></Doing>
+                </div>
+                <div className={`${!pending && 'hidden'} w-full flex justify-center `}>
+                    <Pending></Pending>
+                </div>
+
+                <CardBarChart></CardBarChart>
+                <LineChart></LineChart>
             </div>
-<div className={`w-full flex justify-center `}>
-         <RoutePlan></RoutePlan>
-</div>
-
-
-
-            <Card></Card>
-
-            <div className={`w-full flex justify-center `}>
-                <Banner></Banner>
-            </div>
-
-
-
-
-
-
-
-            <div className={`${alltasks || 'hidden'} w-full flex justify-center `}>
-                <AllTask></AllTask>
-            </div>
-            <div className={`${done || 'hidden'} w-full flex justify-center `}>
-                <Done></Done>
-            </div>
-            <div className={`${doing || 'hidden'} w-full flex justify-center `}>
-                <Doing></Doing>
-            </div>
-            <div className={`${!pending && 'hidden'} w-full flex justify-center `}>
-                <Pending></Pending>
-            </div>
-
-            <CardBarChart></CardBarChart>
-            <LineChart></LineChart>
         </div>
     );
 };

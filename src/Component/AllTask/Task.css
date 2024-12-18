@@ -1,3 +1,14 @@
 .center{
     text-align: center;
 }
+.taskline{ 
+  background: hsla(213, 39%, 17%,5);
+    color: rgb(193, 214, 218);
+    border: 0.1px solid hsla(219, 37%, 9%,1);
+    font-size: 13px;
+ }
+ 
+ .bordertask{
+     border-color: rgb(41, 53, 81);
+     border : 0 0 20px 10px ;
+    }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import AOS from "aos";
 import "./Service.css"
 import useDatabase from '../../Component/Hooks/useDatabase';
-import useShowAll from '../../Component/Hooks/useShowAll';
+// import useShowAll from '../../Component/Hooks/useShowAll';
 import useMoreLess from '../../Component/Hooks/useMoreLess';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleLeft, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';

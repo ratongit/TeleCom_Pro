@@ -9,7 +9,9 @@ const RoutePlan = () => {
     const {setUser} = useContext(AuthContext)
 
     // const auth= getAutt(app)
+    const [impactSites, setImpactSites] = useState([]); // Initial array
 
+    // console.log(impactSites)
 
     const onSubmit = (event) => {
         event.preventDefault();
@@ -17,7 +19,19 @@ const RoutePlan = () => {
             // auth,
             siteDown,dcLow
         )
+        console.log(impactSites)
 
+
+        if (siteDown.trim() || dcLow.trim()) {
+
+            // Add siteDown and dcLow to myInpactSites
+            setImpactSites((prevSites) => [
+              { siteDown: siteDown.toUpperCase(), dcLow: dcLow.toUpperCase() },...prevSites,
+            ]);
+            // Clear the input fields
+            setSiteDown("");
+            setDcLow("");
+          }
         }
         
 
@@ -82,12 +96,7 @@ const handleInput6 = (event) => {
     mx-0 ">
 
 
-
-
-
         <form onSubmit={onSubmit}  className=' pt-6 relative  bg-opacity-10 h-96 ' >
-
-
 
 
 
@@ -126,7 +135,7 @@ const handleInput6 = (event) => {
                                 type="Text"
                                 name='DC low Site'
                                 id="inputField3"
-                                required
+                                // required
                             />
                             <label className='input-text impact-input darktheme1' htmlFor="inputField3">Dc Low</label>
                         </div>
@@ -143,6 +152,7 @@ const handleInput6 = (event) => {
 
 
         </form>
+
 
 
 

@@ -2,7 +2,11 @@ import React from 'react';
 import '../Footer/Footer.css'
 import logo from '../../assets/TeleCom_Pro_Logo.png'
 
+
+
 const Footer = () => {
+
+
     return (
         <div>
             <footer className="footer footer-center p-10 footer-bg  text-primary-content">
