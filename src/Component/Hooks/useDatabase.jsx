@@ -11,6 +11,7 @@ const useDatabase = () => {
     // New Code Start //
     const [allSiteInfo, setAllSiteInfo] = useState([])
     const [impactSite, setImpactSite] = useState([])
+    const [impactMPSite, setImpactMPSite] = useState([])
 
 
 
@@ -26,12 +27,15 @@ const useDatabase = () => {
     // get all Site infomation //
 
     useEffect(() => {
-        fetch('http://localhost:5000/allsiteinfo')
-            .then(res => res.json())
-            .then(data => {
-                setAllSiteInfo(data)
-            })
-    }, [])
+        fetch("http://localhost:5000/allsiteinfo")
+          .then((res) => {
+            if (!res.ok) throw new Error("Failed to fetch");
+            return res.json();
+          })
+          .then(data => setAllSiteInfo(data))
+          .catch(err => console.error("Error fetching all site info:", err));
+      }, []);
+      
 
     
     
@@ -43,11 +47,30 @@ const useDatabase = () => {
     // Fetch impact sites
     useEffect(() => {
         fetch('http://localhost:5000/impactsite')
-        .then(res => res.json())
-        .then(data => setImpactSite(data))
-        .catch(err => console.error('Error fetching impact sites:', err));
-    }, [])
+            .then((res) => {
+                if (!res.ok) {
+                    throw new Error(`HTTP error! status: ${res.status}`);
+                }
+                return res.json();
+            })
+            .then((data) => setImpactSite(data))
+            .catch((err) => console.error('Error fetching impact sites:', err));
+    }, []);
+    
+    // Fetch impactMPSite sites
 
+    useEffect(() => {
+        fetch('http://localhost:5000/impactMPSite')
+            .then((res) => {
+                if (!res.ok) {
+                    throw new Error(`HTTP error! status: ${res.status}`);
+                }
+                return res.json();
+            })
+            .then((data) => setImpactMPSite(data))
+            .catch((err) => console.error('Error fetching impact sites:', err));
+    }, []);
+    
 // Fetch all tasks
 
     const Pending = alltasks.filter(alltasks => alltasks.status === 'to do')
@@ -63,9 +86,10 @@ const useDatabase = () => {
         sites,
         impactSite,
         allSiteInfo,
+        service,
+        impactMPSite
         // serviceFind
         //  service filter data
-        service
     };
 }
 

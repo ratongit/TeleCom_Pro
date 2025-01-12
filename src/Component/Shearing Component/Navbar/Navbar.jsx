@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import "./Navber.css";
 // import logo from './../../../assets/Octopus/businesslogo.png'
 import logo from './../../../assets/Octopus/TeleCom_Pro_Logo.png'
-
+import { Link } from 'react-router-dom';
 
 import addItem from './../../../assets/Octopus/addCaed.png'
 import ManuIcon from './../../../assets/Octopus/hamber.png'
@@ -71,27 +71,27 @@ const Navbar = () => {
         <div htmlFor="my-drawer-2" className="navbar-end me-2">
 
 
-          <a href="/">
+          <Link to="/">
             <div className='w-12    me-2 rounded-3xl max-sm:hidden relative '>
               <img src={home} className='w-14 h-14 rounded-3xl ' alt="" />
             </div>
-          </a>
+            </Link>
 
 
-          <a href="/services">
-            <div className='w-12 h-14  me-5 rounded-3xl max-sm:hidden relative '>
-              <img src={serviceicone} className='w-14 h-14 rounded-3xl ' alt="" />
-            </div>
-          </a>
+          <Link to="/services">
+  <div className="w-12 h-14 me-5 rounded-3xl max-sm:hidden relative">
+    <img src={serviceicone} className="w-14 h-14 rounded-3xl" alt="" />
+  </div>
+</Link>
 
-          <a href="/favourite">
+          <Link to="/favourite">
             <div className='w-12 h-14  me-5 rounded-3xl max-sm:hidden relative '>
               <img src={addItem} className='w-14 h-14 rounded-3xl ' alt="" />
               <div className='absolute bg-white text-sm px-1 top-2 right-0 text-black font-semibold rounded-lg '>
                 {filteredData.length}
               </div>
             </div>
-          </a>
+            </Link>
 
 
           {auth?.currentUser?.photoURL &&

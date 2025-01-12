@@ -14,6 +14,11 @@ import VideoPlayer from './VideoPlayer';
 import RoutePlan from '../Operation/RoutePlan/RoutePlan';
 import InputForm from '../Operation/RoutePlan/Input';
 import RoutePlanner from '../Operation/RoutePlan/RoutePlanner/RoutePlaner';
+import RouteDisplay from '../Operation/RoutePlan/RoutePlanner/Routedisplay';
+import ParentComponent from '../Operation/RoutePlan/RoutePlanner/Shortest';
+import FoundOfficeMP from '../Operation/MaintenancePoint/FoundOffice(MP)';
+import CostomRoute from '../Operation/RoutePlan/RoutePlanner/CostomRoute';
+// import ParentComponent from '../Operation/RoutePlan/RoutePlanner/Shortest';
 const Home = () => {
 
     const { status } = useContext(AuthContext)
@@ -60,7 +65,11 @@ const Home = () => {
 
 
                 <div className={`w-full flex justify-center `}>
-                    <RoutePlanner></RoutePlanner>
+                    <RoutePlanner/>
+                </div>
+
+                <div className={`w-full flex justify-center `}>
+                  <ParentComponent></ParentComponent>
                 </div>
 
 
@@ -68,11 +77,20 @@ const Home = () => {
                     <Banner></Banner>
                 </div>
 
-
-
-
-                {/* 
+{/* new code start */}
             <div className={`w-full flex justify-center `}>
+                <FoundOfficeMP></FoundOfficeMP>
+            </div>
+{/* new code end */}
+
+{/* new code start */}
+            {/* <div className={`w-full flex justify-center `}>
+                <CostomRoute></CostomRoute>
+            </div> */}
+{/* new code end */}
+
+                
+            {/* <div className={`w-full flex justify-center `}>
             <RoutePlan></RoutePlan>
             </div> */}
 

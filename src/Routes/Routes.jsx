@@ -15,6 +15,8 @@ import SubscribeService from "../Pages/Service/Subscribe/SubscribeService";
 import StartTask from "../Pages/StartTask/StartTask";
 import Favourite from "../Pages/Favourite/Favourite";
 import Developer from "../Pages/AllDeveloper/Developer";
+import MapIndex from "../Pages/Operation/Maps/MapIndex";
+// import MapboxExample from "../Pages/Operation/Maps/Map";
 
 
 const router = createBrowserRouter([
@@ -41,6 +43,11 @@ const router = createBrowserRouter([
           {
             path:'/done',
             element:<Done></Done>
+          },
+          {
+            path:'/map',
+            // element:<MapboxExample></MapboxExample>
+            element:<MapIndex></MapIndex>
           },
           {
             path:'/services',

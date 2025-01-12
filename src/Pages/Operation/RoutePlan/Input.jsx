@@ -5,6 +5,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import './../../../Component/AllTask/Task.css';
 import DatePicker from 'react-datepicker';
 import useDatabase from '../../../Component/Hooks/useDatabase';
+import CostomRoute from './RoutePlanner/CostomRoute';
 
 
 
@@ -20,9 +21,8 @@ function InputForm() {
    
     const [startDate, setStartDate] = useState(new Date()); 
 
-
+// onSubmit 
     const onSubmit = (data) => {
-        //   console.log('Form Submitted:', { ...data, selectedDate: startDate });
         
         var alarmName = '';
         
@@ -33,6 +33,7 @@ function InputForm() {
         }
 
 
+    
         // Construct the payload
         const submitableData = {
             ...data,         // Spread the form data
@@ -47,32 +48,35 @@ function InputForm() {
         console.log('Payload Sent to Server:', submitableData);
 
 
-        // console.log(data)
 
-        fetch('http://localhost:5000/impactsitepost', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(submitableData),
+    fetch('http://localhost:5000/impactsitepost', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(submitableData),
+    })
+        .then((res) => {
+            if (!res.ok) throw new Error('Network response was not ok');
+            return res.json();
         })
-            .then((res) => res.json())
-            .then((response) => {
-                if (response.success) {
-                    alert(response.message); // Show success message
-                    reset(); // Reset the form
-                    setStartDate(new Date()); // Reset the date picker
-                } else {
-                    alert(response.message); // Show error message
-                }
-            })
-            .catch((err) => {
-                console.error('Error posting data:', err);
-                alert('An error occurred while posting data.');
-            });
+        .then((response) => {
+            if (response.success) {
+                alert(response.message);
+                reset();
+                setStartDate(new Date());
+            } else {
+                alert(response.message);
+            }
+        })
+        .catch((err) => {
+            console.error('Error posting data:', err);
+            alert('An error occurred while posting data.');
+        });
+    
+
+    }
 
 
 
-        reset();
-    };
 
     const Style = {
         margin: "0px !",
@@ -83,6 +87,7 @@ function InputForm() {
 
 
     return (
+    <>    
         <div className='center flex flex-col items-center darktheme1 mx-5 md:mx-10 rounded-md mt-10  pt-6 pb-10'>
 
             <h2 className='font-bold text-3xl text-blue-300 uppercase mb-4'>Impact Site</h2>
@@ -153,23 +158,6 @@ function InputForm() {
                 </div>
 
 
-
-                {/* Date Picker with Time Selection */}
-
-                {/* <div className='w-full md:w-1/2 mt-4 c'>
- <DatePicker
-    selected={startDate}
-    onChange={(date) => setStartDate(date)}
-    showTimeSelect
-    dateFormat="MMMM d, yyyy h:mm aa"
-    className="border darktheme2 rounded-sm h-10 hover:text-green-300"
-  />
-</div> */}
-
-
-
-
-
                 {/* new code end */}
 
                 <button type="submit" className='bg2 border w-[90%] md:w-[95%] px-32 py-[6px] my-4 rounded-md hover:bg-slate-700 hover:border-green-700 font-bold uppercase hover:text-green-300 max-sm:text-[10px] max-sm:h-12'>Add site in impact list </button>
@@ -177,6 +165,7 @@ function InputForm() {
             </form>
 
         </div>
+        </>
     )
 }
 
