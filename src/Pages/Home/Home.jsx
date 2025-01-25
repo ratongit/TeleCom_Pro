@@ -18,6 +18,12 @@ import RouteDisplay from '../Operation/RoutePlan/RoutePlanner/Routedisplay';
 import ParentComponent from '../Operation/RoutePlan/RoutePlanner/Shortest';
 import FoundOfficeMP from '../Operation/MaintenancePoint/FoundOffice(MP)';
 import CostomRoute from '../Operation/RoutePlan/RoutePlanner/CostomRoute';
+import MBOffice from '../Operation/Maps/MBOffice';
+import HGOffice from '../Operation/Maps/HGOffice';
+import BncOffice from '../Operation/Maps/BncOffice';
+import JriOffice from '../Operation/Maps/JriOffice';
+import AllOffice from '../Operation/Maps/AllOffice';
+import Details from '../Service/Details/Details';
 // import ParentComponent from '../Operation/RoutePlan/RoutePlanner/Shortest';
 const Home = () => {
 
@@ -65,6 +71,11 @@ const Home = () => {
 
 
                 <div className={`w-full flex justify-center `}>
+                    <Details></Details>
+                </div>
+
+
+                <div className={`w-full flex justify-center `}>
                     <RoutePlanner/>
                 </div>
 
@@ -78,15 +89,33 @@ const Home = () => {
                 </div>
 
 {/* new code start */}
-            <div className={`w-full flex justify-center `}>
+            {/* <div className={`w-full flex justify-center `}>
                 <FoundOfficeMP></FoundOfficeMP>
-            </div>
+            </div> */}
 {/* new code end */}
 
 {/* new code start */}
             {/* <div className={`w-full flex justify-center `}>
                 <CostomRoute></CostomRoute>
             </div> */}
+{/* new code end */}
+
+{/* new code start */}
+            <div className={`w-full flex justify-center `}>
+                <MBOffice></MBOffice>
+            </div>
+            <div className={`w-full flex justify-center `}>
+                <HGOffice></HGOffice>
+            </div>
+            <div className={`w-full flex justify-center `}>
+                <BncOffice></BncOffice>
+            </div>
+            <div className={`w-full flex justify-center `}>
+                <JriOffice></JriOffice>
+            </div>
+            <div className={`w-full flex justify-center `}>
+                <AllOffice></AllOffice>
+            </div>
 {/* new code end */}
 
                 

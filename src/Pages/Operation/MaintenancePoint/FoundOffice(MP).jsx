@@ -1,48 +1,61 @@
 import React, { useState, useEffect } from 'react';
 import useDatabase from '../../../Component/Hooks/useDatabase';
+import { Input } from 'postcss';
 
 const FoundOfficeMP = () => {
+
   const { allSiteInfo, impactSite } = useDatabase([]);
   const [matchedSiteData, setMatchedSiteData] = useState([]);
   const [officeSites, setOfficeSites] = useState({ BNC: [], HG: [], MB: [], Juri: [] });
 
-  useEffect(() => {
-    if (!impactSite || !allSiteInfo) return;
 
-    const impactSiteCodes = impactSite.flatMap(input => [input.siteDown, input.dcLow]);
-    const normalizedSiteCodes = impactSiteCodes.map(code => String(code).toUpperCase());
-    const filteredSites = allSiteInfo.filter(site =>
-      normalizedSiteCodes.includes(site.siteCode.toUpperCase())
-    );
+useEffect(()=>{
+  if (!impactSite || !allSiteInfo) return;
+    const impactSiteCodes = Array.from(new Set(
+        impactSite.flatMap(input => [input.siteDown.toUpperCase(), input.dcLow.toUpperCase()]).filter(code => code !== '')));
 
-    setMatchedSiteData(filteredSites); // Update state
-  }, [impactSite, allSiteInfo]);
+    const filteredImpactSite = allSiteInfo.filter(site => impactSiteCodes.includes(site.siteCode.toUpperCase())) // Match ImpactSite
+    console.log(filteredImpactSite);
+
+},[impactSite])
+
+  // useEffect(() => {
+  //   if (!impactSite || !allSiteInfo) return;
+
+  //   const impactSiteCodes = impactSite.flatMap(input => [input.siteDown, input.dcLow]);
+  //   const normalizedSiteCodes = impactSiteCodes.map(code => String(code).toUpperCase());
+  //   const filteredSites = allSiteInfo.filter(site =>
+  //     normalizedSiteCodes.includes(site.siteCode.toUpperCase())
+  //   );
+
+  //   setMatchedSiteData(filteredSites); // Update state
+  // }, [impactSite, allSiteInfo]);
 
 
-  useEffect(() => {
-    setOfficeSites(prevState => {
-      const newOfficeSites = { ...prevState }; // Clone the previous state
+  // useEffect(() => {
+  //   setOfficeSites(prevState => {
+  //     const newOfficeSites = { ...prevState }; // Clone the previous state
       
-      matchedSiteData.forEach(site => {
-        const maintenancePoint = site.maintenacePointName;
-      // console.log(maintenancePoint)
+  //     matchedSiteData.forEach(site => {
+  //       const maintenancePoint = site.maintenacePointName;
+  //     // console.log(maintenancePoint)
 
-        if (maintenancePoint in newOfficeSites) {
-          if (!newOfficeSites[maintenancePoint].includes(site.siteCode)) {
-            newOfficeSites[maintenancePoint].push(site);
-          }
-        }
-      });
+  //       if (maintenancePoint in newOfficeSites) {
+  //         if (!newOfficeSites[maintenancePoint].includes(site.siteCode)) {
+  //           newOfficeSites[maintenancePoint].push(site);
+  //         }
+  //       }
+  //     });
 
-      return newOfficeSites; // Update state with modified officeSites
-    });
-  }, [matchedSiteData]);
+  //     return newOfficeSites; // Update state with modified officeSites
+  //   });
+  // }, [matchedSiteData]);
 
   return (
     <div className="darktheme2 min-h-screen">
       <h1>Matched Site Data are</h1>
-      {console.log("Filtered Sites:", matchedSiteData)}
-      {console.log("Office Sites:", officeSites)}
+      {/* {console.log("Filtered Sites:", matchedSiteData)}
+      {console.log("Office Sites:", officeSites)} */}
 
       {/* <AllSite officeSites={officeSites} matchedSiteData={matchedSiteData}></AllSite> */}
     </div>

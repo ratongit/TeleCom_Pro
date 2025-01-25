@@ -9,6 +9,10 @@ import useDatabase from '../../../Component/Hooks/useDatabase';
 const Card = () => {
     const {Pending,Doing,Done }=useDatabase()
 
+    const {MatchImpactSites, Mb,Bnc,Hg,Jri }=useDatabase()
+
+console.log(MatchImpactSites, Mb,Bnc,Hg,Jri)
+
     const {  status,setStatus } = useContext(AuthContext)
     return (
         <div>
@@ -24,9 +28,9 @@ const Card = () => {
                             </div>
                             <div>
                                 <h3 className='text-white  ms-2 min-w-[100px] overflow-hidden  '>
-                                    Total Task
+                                Impact Sites
                                 </h3>
-                                <div className='text-white   ms-3 mt-1'>263</div>
+                                <div className='text-white   ms-3 mt-1'>{MatchImpactSites.length}</div>
                             </div>
                         </div>
                         <div onClick={()=>setStatus('all-task')} className='btn bg-transparent text-cyan-400 w-[80%] px-10 pt-1 hover:bg-slate-700 hover:text-blue-300 border-gray-500 hover:border-blue-500'>Datials</div>

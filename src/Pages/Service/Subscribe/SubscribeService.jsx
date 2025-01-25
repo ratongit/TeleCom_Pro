@@ -8,7 +8,7 @@ const SubscribeService = () => {
         <div>
 
 
-            
+
         </div>
     );
 };

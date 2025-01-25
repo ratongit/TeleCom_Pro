@@ -4,12 +4,12 @@ import useDatabase from '../../../Component/Hooks/useDatabase';
 
 // const MBOffice = ({officeSites,matchedSiteData}) => {
 const MBOffice = () => {
-  const { allSiteInfo, impactSite,impactMPSite } = useDatabase([]);
+  const {Mb} = useDatabase([]);
+const officeLocation= [24.484881397500956 , 91.79256366380662]
+const zoom=9
 
-  impactMPSite.map(data=>console.log(data))
-  
   return (
-    <MapIndex mbOffice={impactMPSite} ></MapIndex>
+    <MapIndex key= "1" zoom={zoom} office={Mb} serialNumber={1} officeLocation={officeLocation} ></MapIndex>
   )
 }
 

@@ -11,7 +11,8 @@ const AllTask = () => {
   const { activeTaskId, handleDetails, setActiveTaskId  } = useContext(AuthContext)
 
 
-  const { alltasks ,impactSite } = useDatabase();
+    const {MatchImpactSites, Mb,Bnc,Hg,Jri }=useDatabase()
+    const { alltasks ,impactSite } = useDatabase();
 
   const { sites } = useDatabase();
   sites.map((site) => (site.siteDown))
@@ -48,7 +49,7 @@ const AllTask = () => {
 
 
           {
-            impactSite.map((site, index) => <Task key={site?._id} site={site} serialNumber={index + 1}></Task>)
+            MatchImpactSites.map((site, index) => <Task key={site?._id} site={site} serialNumber={index + 1}></Task>)
           }
 
         

@@ -13,19 +13,6 @@ const useDatabase = () => {
     const [impactSite, setImpactSite] = useState([])
     const [impactMPSite, setImpactMPSite] = useState([])
 
-
-
-    // useEffect(() => {
-    //     fetch('http://localhost:5000/sites')
-    //         .then(res => res.json())
-    //         .then(data => setSites(data))
-    // }, [])
-
-    // console.log(sites)
-
-
-    // get all Site infomation //
-
     useEffect(() => {
         fetch("http://localhost:5000/allsiteinfo")
           .then((res) => {
@@ -37,12 +24,6 @@ const useDatabase = () => {
       }, []);
       
 
-    
-    
-    
-    
-    // New Code end //
-    
     
     // Fetch impact sites
     useEffect(() => {
@@ -71,8 +52,28 @@ const useDatabase = () => {
             .catch((err) => console.error('Error fetching impact sites:', err));
     }, []);
     
-// Fetch all tasks
 
+
+    // Match Impact Site (Match with impactSite & allSiteInfo )
+
+  if (!impactSite || !allSiteInfo) return;
+    const impactSiteCodes = Array.from(new Set(
+        impactSite.flatMap(input => [input.siteDown.toUpperCase(), input.dcLow.toUpperCase()]).filter(code => code !== '')));
+
+    const MatchImpactSites = allSiteInfo.filter(site => impactSiteCodes.includes(site.siteCode.toUpperCase())) // Match ImpactSite
+    
+    // console.log(MatchImpactSites);
+
+    const Jri = MatchImpactSites.filter(Sites => Sites.maintenacePointName === "Juri")
+    const Mb = MatchImpactSites.filter(Sites => Sites.maintenacePointName === "MB")
+    const Bnc = MatchImpactSites.filter(Sites => Sites.maintenacePointName  === "BNC")
+    const Hg = MatchImpactSites.filter(Sites => Sites.maintenacePointName  === "HG")
+
+// Fetch all tasks
+    // console.log(MatchImpactSites);
+    // console.log(Mb,Bnc,Hg,Jri);
+    
+    
     const Pending = alltasks.filter(alltasks => alltasks.status === 'to do')
     const Done = alltasks.filter(alltasks => alltasks.status === 'done')
     const Doing = alltasks.filter(alltasks => alltasks.status === 'doing')
@@ -87,12 +88,14 @@ const useDatabase = () => {
         impactSite,
         allSiteInfo,
         service,
-        impactMPSite
+        impactMPSite,
+        
+        // for used map 
+        MatchImpactSites,
+        Mb,Bnc,Hg,Jri
         // serviceFind
         //  service filter data
     };
 }
 
 export default useDatabase;
-
-

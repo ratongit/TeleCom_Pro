@@ -1,9 +1,21 @@
 import React from 'react';
+import useDatabase from '../Hooks/useDatabase';
 
 const Task = ({ site }) => {
 
-  const { siteDown, dcLow, alarm, outage } = site
-  // console.log(alarm)
+  const { alltasks ,impactSite,alarm } = useDatabase();
+
+  console.log(impactSite)
+
+  const alarms =  impactSite.filter(Sites => <>
+  {
+    Sites.siteDown ? Sites.siteDown : Sites.dcLow 
+} 
+  </>)
+console.log(alarms)
+
+  const {siteCode, siteDown, dcLow,  outage } = site
+
 
 
   // if(alarm===siteDown) {
@@ -26,7 +38,7 @@ const Task = ({ site }) => {
 
           </div>
           <div>
-            {siteDown || dcLow}
+            {siteCode}
           </div>
         </th>
 
